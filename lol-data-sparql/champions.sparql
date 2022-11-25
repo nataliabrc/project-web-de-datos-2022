@@ -1,0 +1,32 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?URI a ex:Champion;
+    ex:champion ?champion;
+    ex:name ?champion_name;
+    ex:total_picks ?total_picks;
+    ex:total_wins ?total_wins;
+    ex:total_lose ?total_lose;
+    ex:blue_side_picks ?blue_side_picks;
+    ex:total_wins_blue_side ?total_wins_blue_side;
+    ex:total_lose_blue_side ?total_lose_blue_side;
+    ex:red_side_picks ?red_side_picks;
+    ex:total_wins_red_side ?total_wins_red_side;
+    ex:total_lose_red_side ?total_lose_red_side;
+} 
+
+FROM <file:champions.csv> 
+WHERE {
+  BIND (URI(CONCAT('http://ex.org/champions/', ?champion)) AS ?URI)
+  BIND (xsd:string(?name) AS ?champion_name)
+  BIND (xsd:integer(?sum_total) AS ?total_picks)
+  BIND (xsd:integer(?win_total) AS ?total_wins)
+  BIND (xsd:integer(?lose_total) AS ?total_lose)
+  BIND (xsd:integer(?sum_blue_side) AS ?blue_side_picks)
+  BIND (xsd:integer(?win_blue_side) AS ?total_wins_blue_side)
+  BIND (xsd:integer(?lose_blue_side) AS ?total_lose_blue_side)
+  BIND (xsd:integer(?sum_red_side) AS ?red_side_picks)
+  BIND (xsd:integer(?win_red_side) AS ?total_wins_red_side)
+  BIND (xsd:integer(?lose_red_side) AS ?total_lose_red_side)
+}
