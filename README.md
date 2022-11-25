@@ -1,6 +1,6 @@
 # project-web-de-datos-2022
 
-En windows, desde la terminal entrar a la carpeta tarql-1.2
+En windows, desde la terminal entrar a la carpeta tarql-1.2/bin
 
  ```cd tarql-1.2/bin``` 
 
