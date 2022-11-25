@@ -1,0 +1,1375 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/champions/kaisa>
+        rdf:type                 ex:Champion ;
+        ex:champion              "kaisa" ;
+        ex:name                  "Kai'Sa" ;
+        ex:total_picks           71 ;
+        ex:total_wins            37 ;
+        ex:total_lose            34 ;
+        ex:blue_side_picks       30 ;
+        ex:total_wins_blue_side  15 ;
+        ex:total_lose_blue_side  15 ;
+        ex:red_side_picks        41 ;
+        ex:total_wins_red_side   22 ;
+        ex:total_lose_red_side   19 .
+
+<http://ex.org/champions/leesin>
+        rdf:type                 ex:Champion ;
+        ex:champion              "leesin" ;
+        ex:name                  "Lee Sin" ;
+        ex:total_picks           58 ;
+        ex:total_wins            30 ;
+        ex:total_lose            28 ;
+        ex:blue_side_picks       21 ;
+        ex:total_wins_blue_side  11 ;
+        ex:total_lose_blue_side  10 ;
+        ex:red_side_picks        37 ;
+        ex:total_wins_red_side   19 ;
+        ex:total_lose_red_side   18 .
+
+<http://ex.org/champions/xayah>
+        rdf:type                 ex:Champion ;
+        ex:champion              "xayah" ;
+        ex:name                  "Xayah" ;
+        ex:total_picks           57 ;
+        ex:total_wins            35 ;
+        ex:total_lose            22 ;
+        ex:blue_side_picks       33 ;
+        ex:total_wins_blue_side  21 ;
+        ex:total_lose_blue_side  12 ;
+        ex:red_side_picks        24 ;
+        ex:total_wins_red_side   14 ;
+        ex:total_lose_red_side   10 .
+
+<http://ex.org/champions/nautilus>
+        rdf:type                 ex:Champion ;
+        ex:champion              "nautilus" ;
+        ex:name                  "Nautilus" ;
+        ex:total_picks           52 ;
+        ex:total_wins            28 ;
+        ex:total_lose            24 ;
+        ex:blue_side_picks       27 ;
+        ex:total_wins_blue_side  17 ;
+        ex:total_lose_blue_side  10 ;
+        ex:red_side_picks        25 ;
+        ex:total_wins_red_side   11 ;
+        ex:total_lose_red_side   14 .
+
+<http://ex.org/champions/gragas>
+        rdf:type                 ex:Champion ;
+        ex:champion              "gragas" ;
+        ex:name                  "Gragas" ;
+        ex:total_picks           49 ;
+        ex:total_wins            32 ;
+        ex:total_lose            17 ;
+        ex:blue_side_picks       26 ;
+        ex:total_wins_blue_side  16 ;
+        ex:total_lose_blue_side  10 ;
+        ex:red_side_picks        23 ;
+        ex:total_wins_red_side   16 ;
+        ex:total_lose_red_side   7 .
+
+<http://ex.org/champions/rakan>
+        rdf:type                 ex:Champion ;
+        ex:champion              "rakan" ;
+        ex:name                  "Rakan" ;
+        ex:total_picks           43 ;
+        ex:total_wins            23 ;
+        ex:total_lose            20 ;
+        ex:blue_side_picks       25 ;
+        ex:total_wins_blue_side  13 ;
+        ex:total_lose_blue_side  12 ;
+        ex:red_side_picks        18 ;
+        ex:total_wins_red_side   10 ;
+        ex:total_lose_red_side   8 .
+
+<http://ex.org/champions/gangplank>
+        rdf:type                 ex:Champion ;
+        ex:champion              "gangplank" ;
+        ex:name                  "Gangplank" ;
+        ex:total_picks           38 ;
+        ex:total_wins            21 ;
+        ex:total_lose            17 ;
+        ex:blue_side_picks       21 ;
+        ex:total_wins_blue_side  11 ;
+        ex:total_lose_blue_side  10 ;
+        ex:red_side_picks        17 ;
+        ex:total_wins_red_side   10 ;
+        ex:total_lose_red_side   7 .
+
+<http://ex.org/champions/ryze>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ryze" ;
+        ex:name                  "Ryze" ;
+        ex:total_picks           36 ;
+        ex:total_wins            22 ;
+        ex:total_lose            14 ;
+        ex:blue_side_picks       21 ;
+        ex:total_wins_blue_side  13 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        15 ;
+        ex:total_wins_red_side   9 ;
+        ex:total_lose_red_side   6 .
+
+<http://ex.org/champions/akali>
+        rdf:type                 ex:Champion ;
+        ex:champion              "akali" ;
+        ex:name                  "Akali" ;
+        ex:total_picks           35 ;
+        ex:total_wins            17 ;
+        ex:total_lose            18 ;
+        ex:blue_side_picks       18 ;
+        ex:total_wins_blue_side  10 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        17 ;
+        ex:total_wins_red_side   7 ;
+        ex:total_lose_red_side   10 .
+
+<http://ex.org/champions/thresh>
+        rdf:type                 ex:Champion ;
+        ex:champion              "thresh" ;
+        ex:name                  "Thresh" ;
+        ex:total_picks           35 ;
+        ex:total_wins            16 ;
+        ex:total_lose            19 ;
+        ex:blue_side_picks       18 ;
+        ex:total_wins_blue_side  10 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        17 ;
+        ex:total_wins_red_side   6 ;
+        ex:total_lose_red_side   11 .
+
+<http://ex.org/champions/renekton>
+        rdf:type                 ex:Champion ;
+        ex:champion              "renekton" ;
+        ex:name                  "Renekton" ;
+        ex:total_picks           33 ;
+        ex:total_wins            17 ;
+        ex:total_lose            16 ;
+        ex:blue_side_picks       25 ;
+        ex:total_wins_blue_side  13 ;
+        ex:total_lose_blue_side  12 ;
+        ex:red_side_picks        8 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/elise>
+        rdf:type                 ex:Champion ;
+        ex:champion              "elise" ;
+        ex:name                  "Elise" ;
+        ex:total_picks           32 ;
+        ex:total_wins            16 ;
+        ex:total_lose            16 ;
+        ex:blue_side_picks       15 ;
+        ex:total_wins_blue_side  9 ;
+        ex:total_lose_blue_side  6 ;
+        ex:red_side_picks        17 ;
+        ex:total_wins_red_side   7 ;
+        ex:total_lose_red_side   10 .
+
+<http://ex.org/champions/syndra>
+        rdf:type                 ex:Champion ;
+        ex:champion              "syndra" ;
+        ex:name                  "Syndra" ;
+        ex:total_picks           29 ;
+        ex:total_wins            13 ;
+        ex:total_lose            16 ;
+        ex:blue_side_picks       17 ;
+        ex:total_wins_blue_side  9 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        12 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   8 .
+
+<http://ex.org/champions/ezreal>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ezreal" ;
+        ex:name                  "Ezreal" ;
+        ex:total_picks           25 ;
+        ex:total_wins            11 ;
+        ex:total_lose            14 ;
+        ex:blue_side_picks       11 ;
+        ex:total_wins_blue_side  7 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        14 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   10 .
+
+<http://ex.org/champions/kayle>
+        rdf:type                 ex:Champion ;
+        ex:champion              "kayle" ;
+        ex:name                  "Kayle" ;
+        ex:total_picks           24 ;
+        ex:total_wins            12 ;
+        ex:total_lose            12 ;
+        ex:blue_side_picks       12 ;
+        ex:total_wins_blue_side  5 ;
+        ex:total_lose_blue_side  7 ;
+        ex:red_side_picks        12 ;
+        ex:total_wins_red_side   7 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/qiyana>
+        rdf:type                 ex:Champion ;
+        ex:champion              "qiyana" ;
+        ex:name                  "Qiyana" ;
+        ex:total_picks           23 ;
+        ex:total_wins            13 ;
+        ex:total_lose            10 ;
+        ex:blue_side_picks       20 ;
+        ex:total_wins_blue_side  12 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/reksai>
+        rdf:type                 ex:Champion ;
+        ex:champion              "reksai" ;
+        ex:name                  "Rek'Sai" ;
+        ex:total_picks           22 ;
+        ex:total_wins            11 ;
+        ex:total_lose            11 ;
+        ex:blue_side_picks       14 ;
+        ex:total_wins_blue_side  6 ;
+        ex:total_lose_blue_side  8 ;
+        ex:red_side_picks        8 ;
+        ex:total_wins_red_side   5 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/leblanc>
+        rdf:type                 ex:Champion ;
+        ex:champion              "leblanc" ;
+        ex:name                  "LeBlanc" ;
+        ex:total_picks           21 ;
+        ex:total_wins            11 ;
+        ex:total_lose            10 ;
+        ex:blue_side_picks       6 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        15 ;
+        ex:total_wins_red_side   9 ;
+        ex:total_lose_red_side   6 .
+
+<http://ex.org/champions/leona>
+        rdf:type                 ex:Champion ;
+        ex:champion              "leona" ;
+        ex:name                  "Leona" ;
+        ex:total_picks           20 ;
+        ex:total_wins            13 ;
+        ex:total_lose            7 ;
+        ex:blue_side_picks       7 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        13 ;
+        ex:total_wins_red_side   10 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/jayce>
+        rdf:type                 ex:Champion ;
+        ex:champion              "jayce" ;
+        ex:name                  "Jayce" ;
+        ex:total_picks           19 ;
+        ex:total_wins            8 ;
+        ex:total_lose            11 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        11 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   7 .
+
+<http://ex.org/champions/gnar>
+        rdf:type                 ex:Champion ;
+        ex:champion              "gnar" ;
+        ex:name                  "Gnar" ;
+        ex:total_picks           18 ;
+        ex:total_wins            11 ;
+        ex:total_lose            7 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  7 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        10 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   6 .
+
+<http://ex.org/champions/tristana>
+        rdf:type                 ex:Champion ;
+        ex:champion              "tristana" ;
+        ex:name                  "Tristana" ;
+        ex:total_picks           18 ;
+        ex:total_wins            8 ;
+        ex:total_lose            10 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  5 ;
+        ex:red_side_picks        10 ;
+        ex:total_wins_red_side   5 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/jarvaniv>
+        rdf:type                 ex:Champion ;
+        ex:champion              "jarvaniv" ;
+        ex:name                  "Jarvan IV" ;
+        ex:total_picks           18 ;
+        ex:total_wins            7 ;
+        ex:total_lose            11 ;
+        ex:blue_side_picks       9 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  6 ;
+        ex:red_side_picks        9 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/vladimir>
+        rdf:type                 ex:Champion ;
+        ex:champion              "vladimir" ;
+        ex:name                  "Vladimir" ;
+        ex:total_picks           17 ;
+        ex:total_wins            9 ;
+        ex:total_lose            8 ;
+        ex:blue_side_picks       9 ;
+        ex:total_wins_blue_side  5 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        8 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/lucian>
+        rdf:type                 ex:Champion ;
+        ex:champion              "lucian" ;
+        ex:name                  "Lucian" ;
+        ex:total_picks           16 ;
+        ex:total_wins            5 ;
+        ex:total_lose            11 ;
+        ex:blue_side_picks       11 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  7 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/yasuo>
+        rdf:type                 ex:Champion ;
+        ex:champion              "yasuo" ;
+        ex:name                  "Yasuo" ;
+        ex:total_picks           15 ;
+        ex:total_wins            10 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       9 ;
+        ex:total_wins_blue_side  5 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   5 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/galio>
+        rdf:type                 ex:Champion ;
+        ex:champion              "galio" ;
+        ex:name                  "Galio" ;
+        ex:total_picks           15 ;
+        ex:total_wins            5 ;
+        ex:total_lose            10 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        10 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   6 .
+
+<http://ex.org/champions/camille>
+        rdf:type                 ex:Champion ;
+        ex:champion              "camille" ;
+        ex:name                  "Camille" ;
+        ex:total_picks           14 ;
+        ex:total_wins            8 ;
+        ex:total_lose            6 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  5 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/alistar>
+        rdf:type                 ex:Champion ;
+        ex:champion              "alistar" ;
+        ex:name                  "Alistar" ;
+        ex:total_picks           14 ;
+        ex:total_wins            5 ;
+        ex:total_lose            9 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  5 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/orianna>
+        rdf:type                 ex:Champion ;
+        ex:champion              "orianna" ;
+        ex:name                  "Orianna" ;
+        ex:total_picks           13 ;
+        ex:total_wins            7 ;
+        ex:total_lose            6 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        11 ;
+        ex:total_wins_red_side   7 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/yuumi>
+        rdf:type                 ex:Champion ;
+        ex:champion              "yuumi" ;
+        ex:name                  "Yuumi" ;
+        ex:total_picks           13 ;
+        ex:total_wins            5 ;
+        ex:total_lose            8 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        11 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   7 .
+
+<http://ex.org/champions/pyke>
+        rdf:type                 ex:Champion ;
+        ex:champion              "pyke" ;
+        ex:name                  "Pyke" ;
+        ex:total_picks           13 ;
+        ex:total_wins            4 ;
+        ex:total_lose            9 ;
+        ex:blue_side_picks       8 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  4 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/nocturne>
+        rdf:type                 ex:Champion ;
+        ex:champion              "nocturne" ;
+        ex:name                  "Nocturne" ;
+        ex:total_picks           12 ;
+        ex:total_wins            3 ;
+        ex:total_lose            9 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        9 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   6 .
+
+<http://ex.org/champions/aatrox>
+        rdf:type                 ex:Champion ;
+        ex:champion              "aatrox" ;
+        ex:name                  "Aatrox" ;
+        ex:total_picks           11 ;
+        ex:total_wins            5 ;
+        ex:total_lose            6 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        9 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/ornn>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ornn" ;
+        ex:name                  "Ornn" ;
+        ex:total_picks           10 ;
+        ex:total_wins            7 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/olaf>
+        rdf:type                 ex:Champion ;
+        ex:champion              "olaf" ;
+        ex:name                  "Olaf" ;
+        ex:total_picks           10 ;
+        ex:total_wins            6 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/taliyah>
+        rdf:type                 ex:Champion ;
+        ex:champion              "taliyah" ;
+        ex:name                  "Taliyah" ;
+        ex:total_picks           9 ;
+        ex:total_wins            6 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       6 ;
+        ex:total_wins_blue_side  5 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/varus>
+        rdf:type                 ex:Champion ;
+        ex:champion              "varus" ;
+        ex:name                  "Varus" ;
+        ex:total_picks           9 ;
+        ex:total_wins            6 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/kled>
+        rdf:type                 ex:Champion ;
+        ex:champion              "kled" ;
+        ex:name                  "Kled" ;
+        ex:total_picks           9 ;
+        ex:total_wins            5 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/morgana>
+        rdf:type                 ex:Champion ;
+        ex:champion              "morgana" ;
+        ex:name                  "Morgana" ;
+        ex:total_picks           9 ;
+        ex:total_wins            5 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/twistedfate>
+        rdf:type                 ex:Champion ;
+        ex:champion              "twistedfate" ;
+        ex:name                  "Twisted Fate" ;
+        ex:total_picks           9 ;
+        ex:total_wins            4 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  4 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        4 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/cassiopeia>
+        rdf:type                 ex:Champion ;
+        ex:champion              "cassiopeia" ;
+        ex:name                  "Cassiopeia" ;
+        ex:total_picks           8 ;
+        ex:total_wins            4 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        4 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/corki>
+        rdf:type                 ex:Champion ;
+        ex:champion              "corki" ;
+        ex:name                  "Corki" ;
+        ex:total_picks           8 ;
+        ex:total_wins            4 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/blitzcrank>
+        rdf:type                 ex:Champion ;
+        ex:champion              "blitzcrank" ;
+        ex:name                  "Blitzcrank" ;
+        ex:total_picks           8 ;
+        ex:total_wins            3 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/garen>
+        rdf:type                 ex:Champion ;
+        ex:champion              "garen" ;
+        ex:name                  "Garen" ;
+        ex:total_picks           8 ;
+        ex:total_wins            3 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        6 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/irelia>
+        rdf:type                 ex:Champion ;
+        ex:champion              "irelia" ;
+        ex:name                  "Irelia" ;
+        ex:total_picks           8 ;
+        ex:total_wins            3 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/shen>
+        rdf:type                 ex:Champion ;
+        ex:champion              "shen" ;
+        ex:name                  "Shen" ;
+        ex:total_picks           8 ;
+        ex:total_wins            3 ;
+        ex:total_lose            5 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        4 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/skarner>
+        rdf:type                 ex:Champion ;
+        ex:champion              "skarner" ;
+        ex:name                  "Skarner" ;
+        ex:total_picks           8 ;
+        ex:total_wins            1 ;
+        ex:total_lose            7 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   5 .
+
+<http://ex.org/champions/kennen>
+        rdf:type                 ex:Champion ;
+        ex:champion              "kennen" ;
+        ex:name                  "Kennen" ;
+        ex:total_picks           7 ;
+        ex:total_wins            5 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   4 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/tahmkench>
+        rdf:type                 ex:Champion ;
+        ex:champion              "tahmkench" ;
+        ex:name                  "Tahm Kench" ;
+        ex:total_picks           7 ;
+        ex:total_wins            5 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/heimerdinger>
+        rdf:type                 ex:Champion ;
+        ex:champion              "heimerdinger" ;
+        ex:name                  "Heimerdinger" ;
+        ex:total_picks           7 ;
+        ex:total_wins            4 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/sion>
+        rdf:type                 ex:Champion ;
+        ex:champion              "sion" ;
+        ex:name                  "Sion" ;
+        ex:total_picks           7 ;
+        ex:total_wins            1 ;
+        ex:total_lose            6 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        4 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/lissandra>
+        rdf:type                 ex:Champion ;
+        ex:champion              "lissandra" ;
+        ex:name                  "Lissandra" ;
+        ex:total_picks           6 ;
+        ex:total_wins            3 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   3 .
+
+<http://ex.org/champions/neeko>
+        rdf:type                 ex:Champion ;
+        ex:champion              "neeko" ;
+        ex:name                  "Neeko" ;
+        ex:total_picks           6 ;
+        ex:total_wins            3 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/veigar>
+        rdf:type                 ex:Champion ;
+        ex:champion              "veigar" ;
+        ex:name                  "Veigar" ;
+        ex:total_picks           6 ;
+        ex:total_wins            3 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        5 ;
+        ex:total_wins_red_side   3 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/mordekaiser>
+        rdf:type                 ex:Champion ;
+        ex:champion              "mordekaiser" ;
+        ex:name                  "Mordekaiser" ;
+        ex:total_picks           6 ;
+        ex:total_wins            0 ;
+        ex:total_lose            6 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        4 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   4 .
+
+<http://ex.org/champions/rumble>
+        rdf:type                 ex:Champion ;
+        ex:champion              "rumble" ;
+        ex:name                  "Rumble" ;
+        ex:total_picks           5 ;
+        ex:total_wins            3 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       5 ;
+        ex:total_wins_blue_side  3 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/chogath>
+        rdf:type                 ex:Champion ;
+        ex:champion              "chogath" ;
+        ex:name                  "Cho'Gath" ;
+        ex:total_picks           5 ;
+        ex:total_wins            2 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/zoe>
+        rdf:type                 ex:Champion ;
+        ex:champion              "zoe" ;
+        ex:name                  "Zoe" ;
+        ex:total_picks           5 ;
+        ex:total_wins            2 ;
+        ex:total_lose            3 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/azir>
+        rdf:type                 ex:Champion ;
+        ex:champion              "azir" ;
+        ex:name                  "Azir" ;
+        ex:total_picks           5 ;
+        ex:total_wins            1 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/ekko>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ekko" ;
+        ex:name                  "Ekko" ;
+        ex:total_picks           5 ;
+        ex:total_wins            1 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/karthus>
+        rdf:type                 ex:Champion ;
+        ex:champion              "karthus" ;
+        ex:name                  "Karthus" ;
+        ex:total_picks           5 ;
+        ex:total_wins            1 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  3 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/ashe>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ashe" ;
+        ex:name                  "Ashe" ;
+        ex:total_picks           4 ;
+        ex:total_wins            2 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/fiora>
+        rdf:type                 ex:Champion ;
+        ex:champion              "fiora" ;
+        ex:name                  "Fiora" ;
+        ex:total_picks           4 ;
+        ex:total_wins            2 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/karma>
+        rdf:type                 ex:Champion ;
+        ex:champion              "karma" ;
+        ex:name                  "Karma" ;
+        ex:total_picks           4 ;
+        ex:total_wins            2 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       4 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/quinn>
+        rdf:type                 ex:Champion ;
+        ex:champion              "quinn" ;
+        ex:name                  "Quinn" ;
+        ex:total_picks           4 ;
+        ex:total_wins            2 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/sivir>
+        rdf:type                 ex:Champion ;
+        ex:champion              "sivir" ;
+        ex:name                  "Sivir" ;
+        ex:total_picks           4 ;
+        ex:total_wins            2 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       3 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/caitlyn>
+        rdf:type                 ex:Champion ;
+        ex:champion              "caitlyn" ;
+        ex:name                  "Caitlyn" ;
+        ex:total_picks           4 ;
+        ex:total_wins            0 ;
+        ex:total_lose            4 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/draven>
+        rdf:type                 ex:Champion ;
+        ex:champion              "draven" ;
+        ex:name                  "Draven" ;
+        ex:total_picks           3 ;
+        ex:total_wins            2 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   2 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/jinx>
+        rdf:type                 ex:Champion ;
+        ex:champion              "jinx" ;
+        ex:name                  "Jinx" ;
+        ex:total_picks           3 ;
+        ex:total_wins            1 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/poppy>
+        rdf:type                 ex:Champion ;
+        ex:champion              "poppy" ;
+        ex:name                  "Poppy" ;
+        ex:total_picks           3 ;
+        ex:total_wins            1 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        3 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   2 .
+
+<http://ex.org/champions/fiddlesticks>
+        rdf:type                 ex:Champion ;
+        ex:champion              "fiddlesticks" ;
+        ex:name                  "Fiddlesticks" ;
+        ex:total_picks           2 ;
+        ex:total_wins            2 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/vayne>
+        rdf:type                 ex:Champion ;
+        ex:champion              "vayne" ;
+        ex:name                  "Vayne" ;
+        ex:total_picks           2 ;
+        ex:total_wins            2 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  2 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/hecarim>
+        rdf:type                 ex:Champion ;
+        ex:champion              "hecarim" ;
+        ex:name                  "Hecarim" ;
+        ex:total_picks           2 ;
+        ex:total_wins            1 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/jhin>
+        rdf:type                 ex:Champion ;
+        ex:champion              "jhin" ;
+        ex:name                  "Jhin" ;
+        ex:total_picks           2 ;
+        ex:total_wins            1 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        2 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/khazix>
+        rdf:type                 ex:Champion ;
+        ex:champion              "khazix" ;
+        ex:name                  "Kha'Zix" ;
+        ex:total_picks           2 ;
+        ex:total_wins            1 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/lulu>
+        rdf:type                 ex:Champion ;
+        ex:champion              "lulu" ;
+        ex:name                  "Lulu" ;
+        ex:total_picks           2 ;
+        ex:total_wins            1 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/sejuani>
+        rdf:type                 ex:Champion ;
+        ex:champion              "sejuani" ;
+        ex:name                  "Sejuani" ;
+        ex:total_picks           2 ;
+        ex:total_wins            0 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/sylas>
+        rdf:type                 ex:Champion ;
+        ex:champion              "sylas" ;
+        ex:name                  "Sylas" ;
+        ex:total_picks           2 ;
+        ex:total_wins            0 ;
+        ex:total_lose            2 ;
+        ex:blue_side_picks       2 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  2 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/jax>
+        rdf:type                 ex:Champion ;
+        ex:champion              "jax" ;
+        ex:name                  "Jax" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/kogmaw>
+        rdf:type                 ex:Champion ;
+        ex:champion              "kogmaw" ;
+        ex:name                  "Kog'Maw" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/malphite>
+        rdf:type                 ex:Champion ;
+        ex:champion              "malphite" ;
+        ex:name                  "Malphite" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/pantheon>
+        rdf:type                 ex:Champion ;
+        ex:champion              "pantheon" ;
+        ex:name                  "Pantheon" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/urgot>
+        rdf:type                 ex:Champion ;
+        ex:champion              "urgot" ;
+        ex:name                  "Urgot" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   1 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/yorick>
+        rdf:type                 ex:Champion ;
+        ex:champion              "yorick" ;
+        ex:name                  "Yorick" ;
+        ex:total_picks           1 ;
+        ex:total_wins            1 ;
+        ex:total_lose            0 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  1 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/anivia>
+        rdf:type                 ex:Champion ;
+        ex:champion              "anivia" ;
+        ex:name                  "Anivia" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/bard>
+        rdf:type                 ex:Champion ;
+        ex:champion              "bard" ;
+        ex:name                  "Bard" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/braum>
+        rdf:type                 ex:Champion ;
+        ex:champion              "braum" ;
+        ex:name                  "Braum" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/lux>
+        rdf:type                 ex:Champion ;
+        ex:champion              "lux" ;
+        ex:name                  "Lux" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/nidalee>
+        rdf:type                 ex:Champion ;
+        ex:champion              "nidalee" ;
+        ex:name                  "Nidalee" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/rengar>
+        rdf:type                 ex:Champion ;
+        ex:champion              "rengar" ;
+        ex:name                  "Rengar" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/sona>
+        rdf:type                 ex:Champion ;
+        ex:champion              "sona" ;
+        ex:name                  "Sona" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/vi>
+        rdf:type                 ex:Champion ;
+        ex:champion              "vi" ;
+        ex:name                  "Vi" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/viktor>
+        rdf:type                 ex:Champion ;
+        ex:champion              "viktor" ;
+        ex:name                  "Viktor" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/volibear>
+        rdf:type                 ex:Champion ;
+        ex:champion              "volibear" ;
+        ex:name                  "Volibear" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       1 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  1 ;
+        ex:red_side_picks        0 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   0 .
+
+<http://ex.org/champions/xinzhao>
+        rdf:type                 ex:Champion ;
+        ex:champion              "xinzhao" ;
+        ex:name                  "Xin Zhao" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/ziggs>
+        rdf:type                 ex:Champion ;
+        ex:champion              "ziggs" ;
+        ex:name                  "Ziggs" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
+
+<http://ex.org/champions/zilean>
+        rdf:type                 ex:Champion ;
+        ex:champion              "zilean" ;
+        ex:name                  "Zilean" ;
+        ex:total_picks           1 ;
+        ex:total_wins            0 ;
+        ex:total_lose            1 ;
+        ex:blue_side_picks       0 ;
+        ex:total_wins_blue_side  0 ;
+        ex:total_lose_blue_side  0 ;
+        ex:red_side_picks        1 ;
+        ex:total_wins_red_side   0 ;
+        ex:total_lose_red_side   1 .
