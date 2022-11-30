@@ -6,16 +6,16 @@ CONSTRUCT {
 		ex:name	?player_name;
 		ex:date ?match_date;
 		ex:side ?match_side;
-		ex:position	?position;
-		ex:team	?team;
-		ex:champion	?champion;
-		ex:ban1	?ban1;
-		ex:ban2	?ban2;
-		ex:ban3	?ban3;
-		ex:ban4	?ban4;
-		ex:ban5	?ban5;
+		ex:position	?player_position;
+		ex:team	?player_team;
+		ex:champion	?player_champion;
+		ex:ban1	?ban_1;
+		ex:ban2	?ban_2;
+		ex:ban3	?ban_3;
+		ex:ban4	?ban_4;
+		ex:ban5	?ban_5;
 		ex:gamelength ?game_length;
-		ex:result ?result;
+		ex:result ?match_result;
 		ex:k ?kills;
 		ex:d ?deaths;
 		ex:a ?assists;
@@ -32,8 +32,8 @@ CONSTRUCT {
 		ex:fd	?first_death;
 		ex:fdtime	?first_death_time; 
 		ex:teamdragkills ?team_drag_kills;
-		ex:elders	?elders;
-		ex:herald	?herald;
+		ex:elders	?team_elders;
+		ex:herald	?team_herald;
 		ex:heraldtime ?herald_time;
 		ex:ft	?first_tower;
 		ex:fttime	?first_tower_time;
@@ -53,18 +53,18 @@ FROM <file:players.csv>
 WHERE {
   BIND (URI(CONCAT('http://ex.org/players/', xsd:string(?player))) AS ?URI)
   BIND (xsd:string(?name) AS ?player_name)
-	BIND (xsd:date(?date) AS ?match_date)
+	BIND (xsd:string(?date) AS ?match_date)
 	BIND (xsd:string(?side) AS ?match_side)
-	BIND (xsd:string(?position) AS ?position)
-	BIND (xsd:string(?team) AS ?team)
-	BIND (xsd:string(?champion) AS ?champion)
-	BIND (xsd:string(?ban1) AS ?ban1)
-	BIND (xsd:string(?ban2) AS ?ban2)
-	BIND (xsd:string(?ban3) AS ?ban3)
-	BIND (xsd:string(?ban4) AS ?ban4)
-	BIND (xsd:string(?ban5) AS ?ban5)
+	BIND (xsd:string(?position) AS ?player_position)
+	BIND (xsd:string(?team) AS ?player_team)
+	BIND (xsd:string(?champion) AS ?player_champion)
+	BIND (xsd:string(?ban1) AS ?ban_1)
+	BIND (xsd:string(?ban2) AS ?ban_2)
+	BIND (xsd:string(?ban3) AS ?ban_3)
+	BIND (xsd:string(?ban4) AS ?ban_4)
+	BIND (xsd:string(?ban5) AS ?ban_5)
 	BIND (xsd:float(?gamelength) AS ?game_length)
-	BIND (xsd:boolean(?result) AS ?result)
+	BIND (xsd:boolean(?result) AS ?match_result)
 	BIND (xsd:integer(?k) AS ?kills)
 	BIND (xsd:integer(?d) AS ?deaths)
 	BIND (xsd:integer(?a) AS ?assists)
@@ -81,8 +81,8 @@ WHERE {
 	BIND (xsd:integer(?fd) AS ?first_death)
 	BIND (xsd:float(?fdtime) AS ?first_death_time) 
 	BIND (xsd:integer(?teamdragkills) AS ?team_drag_kills)
-	BIND (xsd:integer(?elders) AS ?elders)
-	BIND (xsd:integer(?herald) AS ?herald)
+	BIND (xsd:integer(?elders) AS ?team_elders)
+	BIND (xsd:integer(?herald) AS ?team_herald)
 	BIND (xsd:float(?heraldtime) AS ?herald_time)
 	BIND (xsd:integer(?ft) AS ?first_tower)
 	BIND (xsd:float(?fttime) AS ?first_tower_time)
