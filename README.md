@@ -19,6 +19,7 @@ Luego ejecutar el siguiente comando para obtener el rdf que se guardará en la c
 
 
  ## Players
+ ```tarql ../../lol-data-sparql/players.sparql ../../lol-data-csv/players.csv > ../../lol-data-rdf/players.ttl```
 
 
  ## Casters
