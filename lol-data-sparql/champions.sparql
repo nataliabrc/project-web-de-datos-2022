@@ -3,7 +3,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
   ?URI a ex:Champion;
-    ex:champion ?champion;
     ex:name ?champion_name;
     ex:total_picks ?total_picks;
     ex:total_wins ?total_wins;
