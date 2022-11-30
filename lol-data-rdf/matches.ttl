@@ -1,0 +1,813 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/worlds_2019_matches/0>
+        rdf:type      ex:Match ;
+        ex:id         "0" ;
+        ex:winner     "SK Telecom T1" ;
+        ex:datetime   "2019-10-12 12:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Faker" ;
+        ex:blue_side  "Fnatic" ;
+        ex:red_side   "SK Telecom T1" .
+
+<http://ex.org/worlds_2019_matches/1>
+        rdf:type      ex:Match ;
+        ex:id         "1" ;
+        ex:winner     "Royal Never Give Up" ;
+        ex:datetime   "2019-10-12 13:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Langx" ;
+        ex:blue_side  "Royal Never Give Up" ;
+        ex:red_side   "Clutch Gaming" .
+
+<http://ex.org/worlds_2019_matches/2>
+        rdf:type      ex:Match ;
+        ex:id         "2" ;
+        ex:winner     "Invictus Gaming" ;
+        ex:datetime   "2019-10-12 14:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Rookie" ;
+        ex:blue_side  "Invictus Gaming" ;
+        ex:red_side   "ahq eSports Club" .
+
+<http://ex.org/worlds_2019_matches/3>
+        rdf:type      ex:Match ;
+        ex:id         "3" ;
+        ex:winner     "Team Liquid" ;
+        ex:datetime   "2019-10-12 15:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Impact" ;
+        ex:blue_side  "DAMWON Gaming" ;
+        ex:red_side   "Team Liquid" .
+
+<http://ex.org/worlds_2019_matches/4>
+        rdf:type      ex:Match ;
+        ex:id         "4" ;
+        ex:winner     "J Team" ;
+        ex:datetime   "2019-10-12 16:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "FoFo" ;
+        ex:blue_side  "J Team" ;
+        ex:red_side   "FunPlus Phoenix" .
+
+<http://ex.org/worlds_2019_matches/5>
+        rdf:type      ex:Match ;
+        ex:id         "5" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-12 17:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Humanoid" ;
+        ex:blue_side  "GAM Esports" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/6>
+        rdf:type      ex:Match ;
+        ex:id         "6" ;
+        ex:winner     "SK Telecom T1" ;
+        ex:datetime   "2019-10-13 12:00:00" ;
+        ex:caster     "CaptainFlowers" ;
+        ex:mvp        "Clid" ;
+        ex:blue_side  "SK Telecom T1" ;
+        ex:red_side   "Royal Never Give Up" .
+
+<http://ex.org/worlds_2019_matches/7>
+        rdf:type      ex:Match ;
+        ex:id         "7" ;
+        ex:winner     "Fnatic" ;
+        ex:datetime   "2019-10-13 13:00:00" ;
+        ex:caster     "CaptainFlowers" ;
+        ex:mvp        "Broxah" ;
+        ex:blue_side  "Fnatic" ;
+        ex:red_side   "Clutch Gaming" .
+
+<http://ex.org/worlds_2019_matches/8>
+        rdf:type      ex:Match ;
+        ex:id         "8" ;
+        ex:winner     "Invictus Gaming" ;
+        ex:datetime   "2019-10-13 14:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Rookie" ;
+        ex:blue_side  "Team Liquid" ;
+        ex:red_side   "Invictus Gaming" .
+
+<http://ex.org/worlds_2019_matches/9>
+        rdf:type      ex:Match ;
+        ex:id         "9" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-13 15:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "ShowMaker" ;
+        ex:blue_side  "ahq eSports Club" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/10>
+        rdf:type      ex:Match ;
+        ex:id         "10" ;
+        ex:winner     "G2 Esports" ;
+        ex:datetime   "2019-10-13 16:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Jankos" ;
+        ex:blue_side  "Griffin" ;
+        ex:red_side   "G2 Esports" .
+
+<http://ex.org/worlds_2019_matches/11>
+        rdf:type      ex:Match ;
+        ex:id         "11" ;
+        ex:winner     "Cloud9" ;
+        ex:datetime   "2019-10-13 17:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Licorice" ;
+        ex:blue_side  "Cloud9" ;
+        ex:red_side   "Hong Kong Attitude" .
+
+<http://ex.org/worlds_2019_matches/12>
+        rdf:type      ex:Match ;
+        ex:id         "12" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-14 13:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Canyon" ;
+        ex:blue_side  "Invictus Gaming" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/13>
+        rdf:type      ex:Match ;
+        ex:id         "13" ;
+        ex:winner     "Team Liquid" ;
+        ex:datetime   "2019-10-14 14:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Impact" ;
+        ex:blue_side  "ahq eSports Club" ;
+        ex:red_side   "Team Liquid" .
+
+<http://ex.org/worlds_2019_matches/14>
+        rdf:type      ex:Match ;
+        ex:id         "14" ;
+        ex:winner     "FunPlus Phoenix" ;
+        ex:datetime   "2019-10-14 15:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Doinb" ;
+        ex:blue_side  "FunPlus Phoenix" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/15>
+        rdf:type      ex:Match ;
+        ex:id         "15" ;
+        ex:winner     "GAM Esports" ;
+        ex:datetime   "2019-10-14 16:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Zeros" ;
+        ex:blue_side  "J Team" ;
+        ex:red_side   "GAM Esports" .
+
+<http://ex.org/worlds_2019_matches/16>
+        rdf:type      ex:Match ;
+        ex:id         "16" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-14 17:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Chovy" ;
+        ex:blue_side  "Griffin" ;
+        ex:red_side   "Hong Kong Attitude" .
+
+<http://ex.org/worlds_2019_matches/17>
+        rdf:type      ex:Match ;
+        ex:id         "17" ;
+        ex:winner     "G2 Esports" ;
+        ex:datetime   "2019-10-14 18:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Perkz" ;
+        ex:blue_side  "G2 Esports" ;
+        ex:red_side   "Cloud9" .
+
+<http://ex.org/worlds_2019_matches/18>
+        rdf:type      ex:Match ;
+        ex:id         "18" ;
+        ex:winner     "Royal Never Give Up" ;
+        ex:datetime   "2019-10-15 13:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Langx" ;
+        ex:blue_side  "Royal Never Give Up" ;
+        ex:red_side   "Fnatic" .
+
+<http://ex.org/worlds_2019_matches/19>
+        rdf:type      ex:Match ;
+        ex:id         "19" ;
+        ex:winner     "SK Telecom T1" ;
+        ex:datetime   "2019-10-15 14:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Faker" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "SK Telecom T1" .
+
+<http://ex.org/worlds_2019_matches/20>
+        rdf:type      ex:Match ;
+        ex:id         "20" ;
+        ex:winner     "FunPlus Phoenix" ;
+        ex:datetime   "2019-10-15 15:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Tian" ;
+        ex:blue_side  "FunPlus Phoenix" ;
+        ex:red_side   "GAM Esports" .
+
+<http://ex.org/worlds_2019_matches/21>
+        rdf:type      ex:Match ;
+        ex:id         "21" ;
+        ex:winner     "J Team" ;
+        ex:datetime   "2019-10-15 16:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "FoFo" ;
+        ex:blue_side  "Splyce" ;
+        ex:red_side   "J Team" .
+
+<http://ex.org/worlds_2019_matches/22>
+        rdf:type      ex:Match ;
+        ex:id         "22" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-15 17:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Tarzan" ;
+        ex:blue_side  "Cloud9" ;
+        ex:red_side   "Griffin" .
+
+<http://ex.org/worlds_2019_matches/23>
+        rdf:type      ex:Match ;
+        ex:id         "23" ;
+        ex:winner     "G2 Esports" ;
+        ex:datetime   "2019-10-15 18:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Perkz" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "G2 Esports" .
+
+<http://ex.org/worlds_2019_matches/24>
+        rdf:type      ex:Match ;
+        ex:id         "24" ;
+        ex:winner     "FunPlus Phoenix" ;
+        ex:datetime   "2019-10-17 13:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Crisp" ;
+        ex:blue_side  "GAM Esports" ;
+        ex:red_side   "FunPlus Phoenix" .
+
+<http://ex.org/worlds_2019_matches/25>
+        rdf:type      ex:Match ;
+        ex:id         "25" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-17 14:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Humanoid" ;
+        ex:blue_side  "J Team" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/26>
+        rdf:type      ex:Match ;
+        ex:id         "26" ;
+        ex:winner     "J Team" ;
+        ex:datetime   "2019-10-17 15:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Rest" ;
+        ex:blue_side  "GAM Esports" ;
+        ex:red_side   "J Team" .
+
+<http://ex.org/worlds_2019_matches/27>
+        rdf:type      ex:Match ;
+        ex:id         "27" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-17 16:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Vizicsacsi" ;
+        ex:blue_side  "Splyce" ;
+        ex:red_side   "FunPlus Phoenix" .
+
+<http://ex.org/worlds_2019_matches/28>
+        rdf:type      ex:Match ;
+        ex:id         "28" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-17 17:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Humanoid" ;
+        ex:blue_side  "Splyce" ;
+        ex:red_side   "GAM Esports" .
+
+<http://ex.org/worlds_2019_matches/29>
+        rdf:type      ex:Match ;
+        ex:id         "29" ;
+        ex:winner     "FunPlus Phoenix" ;
+        ex:datetime   "2019-10-17 18:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Lwx" ;
+        ex:blue_side  "FunPlus Phoenix" ;
+        ex:red_side   "J Team" .
+
+<http://ex.org/worlds_2019_matches/30>
+        rdf:type      ex:Match ;
+        ex:id         "30" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-18 13:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Tarzan" ;
+        ex:blue_side  "Griffin" ;
+        ex:red_side   "Cloud9" .
+
+<http://ex.org/worlds_2019_matches/31>
+        rdf:type      ex:Match ;
+        ex:id         "31" ;
+        ex:winner     "G2 Esports" ;
+        ex:datetime   "2019-10-18 14:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Caps" ;
+        ex:blue_side  "G2 Esports" ;
+        ex:red_side   "Hong Kong Attitude" .
+
+<http://ex.org/worlds_2019_matches/32>
+        rdf:type      ex:Match ;
+        ex:id         "32" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-18 15:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Chovy" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "Griffin" .
+
+<http://ex.org/worlds_2019_matches/33>
+        rdf:type      ex:Match ;
+        ex:id         "33" ;
+        ex:winner     "G2 Esports" ;
+        ex:datetime   "2019-10-18 16:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Caps" ;
+        ex:blue_side  "Cloud9" ;
+        ex:red_side   "G2 Esports" .
+
+<http://ex.org/worlds_2019_matches/34>
+        rdf:type      ex:Match ;
+        ex:id         "34" ;
+        ex:winner     "Cloud9" ;
+        ex:datetime   "2019-10-18 17:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Deftly" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "Cloud9" .
+
+<http://ex.org/worlds_2019_matches/35>
+        rdf:type      ex:Match ;
+        ex:id         "35" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-18 18:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Lehends" ;
+        ex:blue_side  "G2 Esports" ;
+        ex:red_side   "Griffin" .
+
+<http://ex.org/worlds_2019_matches/36>
+        rdf:type      ex:Match ;
+        ex:id         "36" ;
+        ex:winner     "SK Telecom T1" ;
+        ex:datetime   "2019-10-19 12:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Teddy" ;
+        ex:blue_side  "Royal Never Give Up" ;
+        ex:red_side   "SK Telecom T1" .
+
+<http://ex.org/worlds_2019_matches/37>
+        rdf:type      ex:Match ;
+        ex:id         "37" ;
+        ex:winner     "Fnatic" ;
+        ex:datetime   "2019-10-19 13:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Rekkles" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "Fnatic" .
+
+<http://ex.org/worlds_2019_matches/38>
+        rdf:type      ex:Match ;
+        ex:id         "38" ;
+        ex:winner     "Fnatic" ;
+        ex:datetime   "2019-10-19 14:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Nemesis" ;
+        ex:blue_side  "SK Telecom T1" ;
+        ex:red_side   "Fnatic" .
+
+<http://ex.org/worlds_2019_matches/39>
+        rdf:type      ex:Match ;
+        ex:id         "39" ;
+        ex:winner     "Royal Never Give Up" ;
+        ex:datetime   "2019-10-19 15:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Uzi" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "Royal Never Give Up" .
+
+<http://ex.org/worlds_2019_matches/40>
+        rdf:type      ex:Match ;
+        ex:id         "40" ;
+        ex:winner     "SK Telecom T1" ;
+        ex:datetime   "2019-10-19 16:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Clid" ;
+        ex:blue_side  "SK Telecom T1" ;
+        ex:red_side   "Clutch Gaming" .
+
+<http://ex.org/worlds_2019_matches/41>
+        rdf:type      ex:Match ;
+        ex:id         "41" ;
+        ex:winner     "Fnatic" ;
+        ex:datetime   "2019-10-19 17:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Rekkles" ;
+        ex:blue_side  "Fnatic" ;
+        ex:red_side   "Royal Never Give Up" .
+
+<http://ex.org/worlds_2019_matches/42>
+        rdf:type      ex:Match ;
+        ex:id         "42" ;
+        ex:winner     "Invictus Gaming" ;
+        ex:datetime   "2019-10-20 12:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "Rookie" ;
+        ex:blue_side  "ahq eSports Club" ;
+        ex:red_side   "Invictus Gaming" .
+
+<http://ex.org/worlds_2019_matches/43>
+        rdf:type      ex:Match ;
+        ex:id         "43" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-20 13:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "BeryL" ;
+        ex:blue_side  "Team Liquid" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/44>
+        rdf:type      ex:Match ;
+        ex:id         "44" ;
+        ex:winner     "Team Liquid" ;
+        ex:datetime   "2019-10-20 14:00:00" ;
+        ex:caster     "Phreak" ;
+        ex:mvp        "CoreJJ" ;
+        ex:blue_side  "Team Liquid" ;
+        ex:red_side   "ahq eSports Club" .
+
+<http://ex.org/worlds_2019_matches/45>
+        rdf:type      ex:Match ;
+        ex:id         "45" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-20 15:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "ShowMaker" ;
+        ex:blue_side  "DAMWON Gaming" ;
+        ex:red_side   "Invictus Gaming" .
+
+<http://ex.org/worlds_2019_matches/46>
+        rdf:type      ex:Match ;
+        ex:id         "46" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-20 16:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "Nuguri" ;
+        ex:blue_side  "DAMWON Gaming" ;
+        ex:red_side   "ahq eSports Club" .
+
+<http://ex.org/worlds_2019_matches/47>
+        rdf:type      ex:Match ;
+        ex:id         "47" ;
+        ex:winner     "Invictus Gaming" ;
+        ex:datetime   "2019-10-20 17:00:00" ;
+        ex:caster     "Quickshot" ;
+        ex:mvp        "TheShy" ;
+        ex:blue_side  "Invictus Gaming" ;
+        ex:red_side   "Team Liquid" .
+
+<http://ex.org/worlds_2019_matches/48>
+        rdf:type      ex:Match ;
+        ex:id         "48" ;
+        ex:winner     "FunPlus Phoenix" ;
+        ex:datetime   "2019-10-17 19:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Doinb" ;
+        ex:blue_side  "FunPlus Phoenix" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/49>
+        rdf:type      ex:Match ;
+        ex:id         "49" ;
+        ex:winner     "Griffin" ;
+        ex:datetime   "2019-10-18 19:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Tarzan" ;
+        ex:blue_side  "G2 Esports" ;
+        ex:red_side   "Griffin" .
+
+<http://ex.org/worlds_2019_matches/50>
+        rdf:type      ex:Match ;
+        ex:id         "50" ;
+        ex:winner     "Unicorns Of Love" ;
+        ex:datetime   "2019-10-02 11:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "AHaHaCiK" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "Unicorns Of Love" .
+
+<http://ex.org/worlds_2019_matches/51>
+        rdf:type      ex:Match ;
+        ex:id         "51" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-02 12:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Kobbe" ;
+        ex:blue_side  "DetonatioN FocusMe" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/52>
+        rdf:type      ex:Match ;
+        ex:id         "52" ;
+        ex:winner     "MAMMOTH" ;
+        ex:datetime   "2019-10-02 13:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Triple" ;
+        ex:blue_side  "MAMMOTH" ;
+        ex:red_side   "Unicorns Of Love" .
+
+<http://ex.org/worlds_2019_matches/53>
+        rdf:type      ex:Match ;
+        ex:id         "53" ;
+        ex:winner     "Isurus" ;
+        ex:datetime   "2019-10-02 14:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Warangelus" ;
+        ex:blue_side  "DetonatioN FocusMe" ;
+        ex:red_side   "Isurus" .
+
+<http://ex.org/worlds_2019_matches/54>
+        rdf:type      ex:Match ;
+        ex:id         "54" ;
+        ex:winner     "Clutch Gaming" ;
+        ex:datetime   "2019-10-02 15:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Huni" ;
+        ex:blue_side  "MAMMOTH" ;
+        ex:red_side   "Clutch Gaming" .
+
+<http://ex.org/worlds_2019_matches/55>
+        rdf:type      ex:Match ;
+        ex:id         "55" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-02 16:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Humanoid" ;
+        ex:blue_side  "Splyce" ;
+        ex:red_side   "Isurus" .
+
+<http://ex.org/worlds_2019_matches/56>
+        rdf:type      ex:Match ;
+        ex:id         "56" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-03 11:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Nuguri" ;
+        ex:blue_side  "Royal Youth" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/57>
+        rdf:type      ex:Match ;
+        ex:id         "57" ;
+        ex:winner     "Hong Kong Attitude" ;
+        ex:datetime   "2019-10-03 12:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "3Z" ;
+        ex:blue_side  "MEGA" ;
+        ex:red_side   "Hong Kong Attitude" .
+
+<http://ex.org/worlds_2019_matches/58>
+        rdf:type      ex:Match ;
+        ex:id         "58" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-03 13:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Canyon" ;
+        ex:blue_side  "DAMWON Gaming" ;
+        ex:red_side   "Flamengo eSports" .
+
+<http://ex.org/worlds_2019_matches/59>
+        rdf:type      ex:Match ;
+        ex:id         "59" ;
+        ex:winner     "MEGA" ;
+        ex:datetime   "2019-10-03 14:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Rockky" ;
+        ex:blue_side  "MEGA" ;
+        ex:red_side   "Lowkey Esports" .
+
+<http://ex.org/worlds_2019_matches/60>
+        rdf:type      ex:Match ;
+        ex:id         "60" ;
+        ex:winner     "Flamengo eSports" ;
+        ex:datetime   "2019-10-03 15:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Luci" ;
+        ex:blue_side  "Royal Youth" ;
+        ex:red_side   "Flamengo eSports" .
+
+<http://ex.org/worlds_2019_matches/61>
+        rdf:type      ex:Match ;
+        ex:id         "61" ;
+        ex:winner     "Lowkey Esports" ;
+        ex:datetime   "2019-10-03 16:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Artifact" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "Lowkey Esports" .
+
+<http://ex.org/worlds_2019_matches/62>
+        rdf:type      ex:Match ;
+        ex:id         "62" ;
+        ex:winner     "Unicorns Of Love" ;
+        ex:datetime   "2019-10-04 10:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "AHaHaCiK" ;
+        ex:blue_side  "Unicorns Of Love" ;
+        ex:red_side   "Clutch Gaming" .
+
+<http://ex.org/worlds_2019_matches/63>
+        rdf:type      ex:Match ;
+        ex:id         "63" ;
+        ex:winner     "DetonatioN FocusMe" ;
+        ex:datetime   "2019-10-04 11:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Evi" ;
+        ex:blue_side  "Splyce" ;
+        ex:red_side   "DetonatioN FocusMe" .
+
+<http://ex.org/worlds_2019_matches/64>
+        rdf:type      ex:Match ;
+        ex:id         "64" ;
+        ex:winner     "MAMMOTH" ;
+        ex:datetime   "2019-10-04 12:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "k1ng" ;
+        ex:blue_side  "Unicorns Of Love" ;
+        ex:red_side   "MAMMOTH" .
+
+<http://ex.org/worlds_2019_matches/65>
+        rdf:type      ex:Match ;
+        ex:id         "65" ;
+        ex:winner     "Isurus" ;
+        ex:datetime   "2019-10-04 13:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Warangelus" ;
+        ex:blue_side  "Isurus" ;
+        ex:red_side   "DetonatioN FocusMe" .
+
+<http://ex.org/worlds_2019_matches/66>
+        rdf:type      ex:Match ;
+        ex:id         "66" ;
+        ex:winner     "Clutch Gaming" ;
+        ex:datetime   "2019-10-04 14:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Huni" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "MAMMOTH" .
+
+<http://ex.org/worlds_2019_matches/67>
+        rdf:type      ex:Match ;
+        ex:id         "67" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-04 15:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Humanoid" ;
+        ex:blue_side  "Isurus" ;
+        ex:red_side   "Splyce" .
+
+<http://ex.org/worlds_2019_matches/68>
+        rdf:type      ex:Match ;
+        ex:id         "68" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-05 10:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "ShowMaker" ;
+        ex:blue_side  "DAMWON Gaming" ;
+        ex:red_side   "Royal Youth" .
+
+<http://ex.org/worlds_2019_matches/69>
+        rdf:type      ex:Match ;
+        ex:id         "69" ;
+        ex:winner     "Hong Kong Attitude" ;
+        ex:datetime   "2019-10-05 11:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "Crash" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "MEGA" .
+
+<http://ex.org/worlds_2019_matches/70>
+        rdf:type      ex:Match ;
+        ex:id         "70" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-05 12:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "ShowMaker" ;
+        ex:blue_side  "Flamengo eSports" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/71>
+        rdf:type      ex:Match ;
+        ex:id         "71" ;
+        ex:winner     "Lowkey Esports" ;
+        ex:datetime   "2019-10-05 13:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "DNK" ;
+        ex:blue_side  "Lowkey Esports" ;
+        ex:red_side   "MEGA" .
+
+<http://ex.org/worlds_2019_matches/72>
+        rdf:type      ex:Match ;
+        ex:id         "72" ;
+        ex:winner     "Royal Youth" ;
+        ex:datetime   "2019-10-05 14:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Pilot" ;
+        ex:blue_side  "Flamengo eSports" ;
+        ex:red_side   "Royal Youth" .
+
+<http://ex.org/worlds_2019_matches/73>
+        rdf:type      ex:Match ;
+        ex:id         "73" ;
+        ex:winner     "Hong Kong Attitude" ;
+        ex:datetime   "2019-10-05 15:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Crash" ;
+        ex:blue_side  "Lowkey Esports" ;
+        ex:red_side   "Hong Kong Attitude" .
+
+<http://ex.org/worlds_2019_matches/74>
+        rdf:type      ex:Match ;
+        ex:id         "74" ;
+        ex:winner     "Unicorns Of Love" ;
+        ex:datetime   "2019-10-04 16:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "BOSS" ;
+        ex:blue_side  "MAMMOTH" ;
+        ex:red_side   "Unicorns Of Love" .
+
+<http://ex.org/worlds_2019_matches/75>
+        rdf:type      ex:Match ;
+        ex:id         "75" ;
+        ex:winner     "Clutch Gaming" ;
+        ex:datetime   "2019-10-04 17:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Huni" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "Unicorns Of Love" .
+
+<http://ex.org/worlds_2019_matches/76>
+        rdf:type      ex:Match ;
+        ex:id         "76" ;
+        ex:winner     "Royal Youth" ;
+        ex:datetime   "2019-10-05 16:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Armut" ;
+        ex:blue_side  "Royal Youth" ;
+        ex:red_side   "Flamengo eSports" .
+
+<http://ex.org/worlds_2019_matches/77>
+        rdf:type      ex:Match ;
+        ex:id         "77" ;
+        ex:winner     "DAMWON Gaming" ;
+        ex:datetime   "2019-10-07 11:00:00" ;
+        ex:caster     "Atlus" ;
+        ex:mvp        "ShowMaker" ;
+        ex:blue_side  "Lowkey Esports" ;
+        ex:red_side   "DAMWON Gaming" .
+
+<http://ex.org/worlds_2019_matches/78>
+        rdf:type      ex:Match ;
+        ex:id         "78" ;
+        ex:winner     "Clutch Gaming" ;
+        ex:datetime   "2019-10-07 16:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Cody Sun" ;
+        ex:blue_side  "Clutch Gaming" ;
+        ex:red_side   "Royal Youth" .
+
+<http://ex.org/worlds_2019_matches/79>
+        rdf:type      ex:Match ;
+        ex:id         "79" ;
+        ex:winner     "Hong Kong Attitude" ;
+        ex:datetime   "2019-10-08 11:00:00" ;
+        ex:caster     "Medic" ;
+        ex:mvp        "Kaiwing" ;
+        ex:blue_side  "Hong Kong Attitude" ;
+        ex:red_side   "Isurus" .
+
+<http://ex.org/worlds_2019_matches/80>
+        rdf:type      ex:Match ;
+        ex:id         "80" ;
+        ex:winner     "Splyce" ;
+        ex:datetime   "2019-10-08 16:00:00" ;
+        ex:caster     "Drakos" ;
+        ex:mvp        "Kobbe" ;
+        ex:blue_side  "Unicorns Of Love" ;
+        ex:red_side   "Splyce" .
