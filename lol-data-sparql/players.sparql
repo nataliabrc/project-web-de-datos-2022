@@ -1,0 +1,101 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Players;
+		ex:name	?player_name;
+		ex:date ?match_date;
+		ex:side ?match_side;
+		ex:position	?position;
+		ex:team	?team;
+		ex:champion	?champion;
+		ex:ban1	?ban1;
+		ex:ban2	?ban2;
+		ex:ban3	?ban3;
+		ex:ban4	?ban4;
+		ex:ban5	?ban5;
+		ex:gamelength ?game_length;
+		ex:result ?result;
+		ex:k ?kills;
+		ex:d ?deaths;
+		ex:a ?assists;
+		ex:teamkills ?team_kills;
+		ex:teamdeaths ?team_deaths;
+		ex:doubles ?double_kills;
+		ex:triples ?triple_kills;
+		ex:quadras ?quadra_kills;
+		ex:pentas ?penta_kills;
+		ex:fb ?first_blood;
+		ex:fbassist	?first_blood_assist;
+		ex:fbvictim	?first_blood_victim;
+		ex:fbtime ?first_blood_time;
+		ex:fd	?first_death;
+		ex:fdtime	?first_death_time; 
+		ex:teamdragkills ?team_drag_kills;
+		ex:elders	?elders;
+		ex:herald	?herald;
+		ex:heraldtime ?herald_time;
+		ex:ft	?first_tower;
+		ex:fttime	?first_tower_time;
+		ex:firstmidouter	?first_mid_tower;
+		ex:firsttothreetowers	?first_three_tower;
+		ex:teamtowerkills	?team_tower_kills;
+		ex:fbaron	?first_baron;
+		ex:fbarontime	?first_baron_time; 
+		ex:teambaronkills	?team_baron_kills;
+		ex:dmgtochamps	?damage_to_champs;
+		ex:totalgold	?total_gold;
+		ex:minionkills	?minion_kills;
+		ex:monsterkills	?monster_kills;
+}
+
+FROM <file:players.csv> 
+WHERE {
+  BIND (URI(CONCAT('http://ex.org/players/', xsd:string(?player))) AS ?URI)
+  BIND (xsd:string(?name) AS ?player_name)
+	BIND (xsd:date(?date) AS ?match_date)
+	BIND (xsd:string(?side) AS ?match_side)
+	BIND (xsd:string(?position) AS ?position)
+	BIND (xsd:string(?team) AS ?team)
+	BIND (xsd:string(?champion) AS ?champion)
+	BIND (xsd:string(?ban1) AS ?ban1)
+	BIND (xsd:string(?ban2) AS ?ban2)
+	BIND (xsd:string(?ban3) AS ?ban3)
+	BIND (xsd:string(?ban4) AS ?ban4)
+	BIND (xsd:string(?ban5) AS ?ban5)
+	BIND (xsd:float(?gamelength) AS ?game_length)
+	BIND (xsd:boolean(?result) AS ?result)
+	BIND (xsd:integer(?k) AS ?kills)
+	BIND (xsd:integer(?d) AS ?deaths)
+	BIND (xsd:integer(?a) AS ?assists)
+	BIND (xsd:integer(?teamkills) AS ?team_kills)
+	BIND (xsd:integer(?teamdeaths) AS ?team_deaths)
+	BIND (xsd:integer(?doubles) AS ?double_kills)
+	BIND (xsd:integer(?triples) AS ?triple_kills)
+	BIND (xsd:integer(?quadras) AS ?quadra_kills)
+	BIND (xsd:integer(?pentas) AS ?penta_kills)
+	BIND (xsd:integer(?fb) AS ?first_blood)
+	BIND (xsd:integer(?fbassist) AS ?first_blood_assist)
+	BIND (xsd:integer(?fbvictim) AS ?first_blood_victim)
+	BIND (xsd:float(?fbtime) AS ?first_blood_time)
+	BIND (xsd:integer(?fd) AS ?first_death)
+	BIND (xsd:float(?fdtime) AS ?first_death_time) 
+	BIND (xsd:integer(?teamdragkills) AS ?team_drag_kills)
+	BIND (xsd:integer(?elders) AS ?elders)
+	BIND (xsd:integer(?herald) AS ?herald)
+	BIND (xsd:float(?heraldtime) AS ?herald_time)
+	BIND (xsd:integer(?ft) AS ?first_tower)
+	BIND (xsd:float(?fttime) AS ?first_tower_time)
+	BIND (xsd:integer(?firstmidouter) AS ?first_mid_tower)
+	BIND (xsd:integer(?firsttothreetowers) AS ?first_three_tower)
+	BIND (xsd:integer(?teamtowerkills) AS ?team_tower_kills)
+	BIND (xsd:integer(?fbaron) AS ?first_baron)
+	BIND (xsd:integer(?fbarontime) AS ?first_baron_time) 
+	BIND (xsd:integer(?teambaronkills) AS ?team_baron_kills)
+	BIND (xsd:integer(?dmgtochamps) AS ?damage_to_champs)
+	BIND (xsd:integer(?totalgold) AS ?total_gold)
+	BIND (xsd:integer(?minionkills) AS ?minion_kills)
+	BIND (xsd:integer(?monsterkills) AS ?monster_kills)
+
+  
+}
