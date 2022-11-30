@@ -1,0 +1,26 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?URI a ex:Match;
+    ex:id ?id;
+    ex:winner ?winner;
+    ex:datetime ?datetime;
+    ex:caster ?caster;
+    ex:mvp ?mvp ;
+    ex:blue_side ?blue;
+    ex:red_side ?red ;
+   
+} 
+FROM <file:matches.csv> 
+WHERE {
+  BIND (URI(CONCAT('http://ex.org/worlds_2019_matches/', xsd:string(?id))) AS ?URI)
+  BIND (xsd:string(?winner) AS ?winner)
+  BIND (xsd:string(?date) AS ?datetime)
+  BIND (xsd:string(?pbp_caster) AS ?caster)
+  BIND (xsd:string(?mvp) AS ?mvp)
+  BIND (xsd:string(?blue) AS ?blue)
+  BIND (xsd:string(?red) AS ?red)
+}
+
+
