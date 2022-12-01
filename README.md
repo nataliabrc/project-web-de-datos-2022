@@ -16,12 +16,16 @@ Luego ejecutar el siguiente comando para obtener el rdf que se guardará en la c
 
 
  ## Teams
+  ```tarql ../../lol-data-sparql/teams.sparql ../../lol-data-csv/teams.csv > ../../lol-data-rdf/teams.ttl ```
 
 
  ## Players
  ```tarql ../../lol-data-sparql/players.sparql ../../lol-data-csv/players.csv > ../../lol-data-rdf/players.ttl```
 
+ ## Players statistics per match
+ ```tarql ../../lol-data-sparql/players_stats_per_match.sparql ../../lol-data-csv/players_stats_per_match.csv > ../../lol-data-rdf/players_stats_per_match.ttl```
+
 
  ## Casters
  
-  ```tarql ../../lol-data-sparql/casters.sparql ../../lol-data-csv/casters.csv > ../../lol-data-rdf/casters.ttl```
+  ```tarql ../../lol-data-sparql/casters.sparql ../../lol-data-csv/matches.csv > ../../lol-data-rdf/casters.ttl```
