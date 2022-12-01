@@ -1,6 +1,6 @@
 # project-web-de-datos-2022
 
-## CSV to RDF
+## Tranformación de archivos CSV to RDF
 
 En windows, desde la terminal entrar a la carpeta tarql-1.2/bin
 
@@ -36,4 +36,4 @@ Luego ejecutar el siguiente comando para obtener el rdf que se guardará en la c
 
 ## SPARQL queries
 
-* Quién es el más cool?
+En la carpeta sparql-interesting-queries se encuentra el archivo ```queries.sparql``` que contiene las queries hechas sobres los grafos y qué información entregan.
