@@ -2,7 +2,7 @@
 @prefix ex:  <http://ex.org/a#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://ex.org/worlds_2019_matches/0>
+<http://ex.org/matches/0>
         rdf:type      ex:Match ;
         ex:id         "0" ;
         ex:winner     "SK Telecom T1" ;
@@ -12,7 +12,7 @@
         ex:blue_side  "Fnatic" ;
         ex:red_side   "SK Telecom T1" .
 
-<http://ex.org/worlds_2019_matches/1>
+<http://ex.org/matches/1>
         rdf:type      ex:Match ;
         ex:id         "1" ;
         ex:winner     "Royal Never Give Up" ;
@@ -22,7 +22,7 @@
         ex:blue_side  "Royal Never Give Up" ;
         ex:red_side   "Clutch Gaming" .
 
-<http://ex.org/worlds_2019_matches/2>
+<http://ex.org/matches/2>
         rdf:type      ex:Match ;
         ex:id         "2" ;
         ex:winner     "Invictus Gaming" ;
@@ -32,7 +32,7 @@
         ex:blue_side  "Invictus Gaming" ;
         ex:red_side   "ahq eSports Club" .
 
-<http://ex.org/worlds_2019_matches/3>
+<http://ex.org/matches/3>
         rdf:type      ex:Match ;
         ex:id         "3" ;
         ex:winner     "Team Liquid" ;
@@ -42,7 +42,7 @@
         ex:blue_side  "DAMWON Gaming" ;
         ex:red_side   "Team Liquid" .
 
-<http://ex.org/worlds_2019_matches/4>
+<http://ex.org/matches/4>
         rdf:type      ex:Match ;
         ex:id         "4" ;
         ex:winner     "J Team" ;
@@ -52,7 +52,7 @@
         ex:blue_side  "J Team" ;
         ex:red_side   "FunPlus Phoenix" .
 
-<http://ex.org/worlds_2019_matches/5>
+<http://ex.org/matches/5>
         rdf:type      ex:Match ;
         ex:id         "5" ;
         ex:winner     "Splyce" ;
@@ -62,7 +62,7 @@
         ex:blue_side  "GAM Esports" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/6>
+<http://ex.org/matches/6>
         rdf:type      ex:Match ;
         ex:id         "6" ;
         ex:winner     "SK Telecom T1" ;
@@ -72,7 +72,7 @@
         ex:blue_side  "SK Telecom T1" ;
         ex:red_side   "Royal Never Give Up" .
 
-<http://ex.org/worlds_2019_matches/7>
+<http://ex.org/matches/7>
         rdf:type      ex:Match ;
         ex:id         "7" ;
         ex:winner     "Fnatic" ;
@@ -82,7 +82,7 @@
         ex:blue_side  "Fnatic" ;
         ex:red_side   "Clutch Gaming" .
 
-<http://ex.org/worlds_2019_matches/8>
+<http://ex.org/matches/8>
         rdf:type      ex:Match ;
         ex:id         "8" ;
         ex:winner     "Invictus Gaming" ;
@@ -92,7 +92,7 @@
         ex:blue_side  "Team Liquid" ;
         ex:red_side   "Invictus Gaming" .
 
-<http://ex.org/worlds_2019_matches/9>
+<http://ex.org/matches/9>
         rdf:type      ex:Match ;
         ex:id         "9" ;
         ex:winner     "DAMWON Gaming" ;
@@ -102,7 +102,7 @@
         ex:blue_side  "ahq eSports Club" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/10>
+<http://ex.org/matches/10>
         rdf:type      ex:Match ;
         ex:id         "10" ;
         ex:winner     "G2 Esports" ;
@@ -112,7 +112,7 @@
         ex:blue_side  "Griffin" ;
         ex:red_side   "G2 Esports" .
 
-<http://ex.org/worlds_2019_matches/11>
+<http://ex.org/matches/11>
         rdf:type      ex:Match ;
         ex:id         "11" ;
         ex:winner     "Cloud9" ;
@@ -122,7 +122,7 @@
         ex:blue_side  "Cloud9" ;
         ex:red_side   "Hong Kong Attitude" .
 
-<http://ex.org/worlds_2019_matches/12>
+<http://ex.org/matches/12>
         rdf:type      ex:Match ;
         ex:id         "12" ;
         ex:winner     "DAMWON Gaming" ;
@@ -132,7 +132,7 @@
         ex:blue_side  "Invictus Gaming" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/13>
+<http://ex.org/matches/13>
         rdf:type      ex:Match ;
         ex:id         "13" ;
         ex:winner     "Team Liquid" ;
@@ -142,7 +142,7 @@
         ex:blue_side  "ahq eSports Club" ;
         ex:red_side   "Team Liquid" .
 
-<http://ex.org/worlds_2019_matches/14>
+<http://ex.org/matches/14>
         rdf:type      ex:Match ;
         ex:id         "14" ;
         ex:winner     "FunPlus Phoenix" ;
@@ -152,7 +152,7 @@
         ex:blue_side  "FunPlus Phoenix" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/15>
+<http://ex.org/matches/15>
         rdf:type      ex:Match ;
         ex:id         "15" ;
         ex:winner     "GAM Esports" ;
@@ -162,7 +162,7 @@
         ex:blue_side  "J Team" ;
         ex:red_side   "GAM Esports" .
 
-<http://ex.org/worlds_2019_matches/16>
+<http://ex.org/matches/16>
         rdf:type      ex:Match ;
         ex:id         "16" ;
         ex:winner     "Griffin" ;
@@ -172,7 +172,7 @@
         ex:blue_side  "Griffin" ;
         ex:red_side   "Hong Kong Attitude" .
 
-<http://ex.org/worlds_2019_matches/17>
+<http://ex.org/matches/17>
         rdf:type      ex:Match ;
         ex:id         "17" ;
         ex:winner     "G2 Esports" ;
@@ -182,7 +182,7 @@
         ex:blue_side  "G2 Esports" ;
         ex:red_side   "Cloud9" .
 
-<http://ex.org/worlds_2019_matches/18>
+<http://ex.org/matches/18>
         rdf:type      ex:Match ;
         ex:id         "18" ;
         ex:winner     "Royal Never Give Up" ;
@@ -192,7 +192,7 @@
         ex:blue_side  "Royal Never Give Up" ;
         ex:red_side   "Fnatic" .
 
-<http://ex.org/worlds_2019_matches/19>
+<http://ex.org/matches/19>
         rdf:type      ex:Match ;
         ex:id         "19" ;
         ex:winner     "SK Telecom T1" ;
@@ -202,7 +202,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "SK Telecom T1" .
 
-<http://ex.org/worlds_2019_matches/20>
+<http://ex.org/matches/20>
         rdf:type      ex:Match ;
         ex:id         "20" ;
         ex:winner     "FunPlus Phoenix" ;
@@ -212,7 +212,7 @@
         ex:blue_side  "FunPlus Phoenix" ;
         ex:red_side   "GAM Esports" .
 
-<http://ex.org/worlds_2019_matches/21>
+<http://ex.org/matches/21>
         rdf:type      ex:Match ;
         ex:id         "21" ;
         ex:winner     "J Team" ;
@@ -222,7 +222,7 @@
         ex:blue_side  "Splyce" ;
         ex:red_side   "J Team" .
 
-<http://ex.org/worlds_2019_matches/22>
+<http://ex.org/matches/22>
         rdf:type      ex:Match ;
         ex:id         "22" ;
         ex:winner     "Griffin" ;
@@ -232,7 +232,7 @@
         ex:blue_side  "Cloud9" ;
         ex:red_side   "Griffin" .
 
-<http://ex.org/worlds_2019_matches/23>
+<http://ex.org/matches/23>
         rdf:type      ex:Match ;
         ex:id         "23" ;
         ex:winner     "G2 Esports" ;
@@ -242,7 +242,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "G2 Esports" .
 
-<http://ex.org/worlds_2019_matches/24>
+<http://ex.org/matches/24>
         rdf:type      ex:Match ;
         ex:id         "24" ;
         ex:winner     "FunPlus Phoenix" ;
@@ -252,7 +252,7 @@
         ex:blue_side  "GAM Esports" ;
         ex:red_side   "FunPlus Phoenix" .
 
-<http://ex.org/worlds_2019_matches/25>
+<http://ex.org/matches/25>
         rdf:type      ex:Match ;
         ex:id         "25" ;
         ex:winner     "Splyce" ;
@@ -262,7 +262,7 @@
         ex:blue_side  "J Team" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/26>
+<http://ex.org/matches/26>
         rdf:type      ex:Match ;
         ex:id         "26" ;
         ex:winner     "J Team" ;
@@ -272,7 +272,7 @@
         ex:blue_side  "GAM Esports" ;
         ex:red_side   "J Team" .
 
-<http://ex.org/worlds_2019_matches/27>
+<http://ex.org/matches/27>
         rdf:type      ex:Match ;
         ex:id         "27" ;
         ex:winner     "Splyce" ;
@@ -282,7 +282,7 @@
         ex:blue_side  "Splyce" ;
         ex:red_side   "FunPlus Phoenix" .
 
-<http://ex.org/worlds_2019_matches/28>
+<http://ex.org/matches/28>
         rdf:type      ex:Match ;
         ex:id         "28" ;
         ex:winner     "Splyce" ;
@@ -292,7 +292,7 @@
         ex:blue_side  "Splyce" ;
         ex:red_side   "GAM Esports" .
 
-<http://ex.org/worlds_2019_matches/29>
+<http://ex.org/matches/29>
         rdf:type      ex:Match ;
         ex:id         "29" ;
         ex:winner     "FunPlus Phoenix" ;
@@ -302,7 +302,7 @@
         ex:blue_side  "FunPlus Phoenix" ;
         ex:red_side   "J Team" .
 
-<http://ex.org/worlds_2019_matches/30>
+<http://ex.org/matches/30>
         rdf:type      ex:Match ;
         ex:id         "30" ;
         ex:winner     "Griffin" ;
@@ -312,7 +312,7 @@
         ex:blue_side  "Griffin" ;
         ex:red_side   "Cloud9" .
 
-<http://ex.org/worlds_2019_matches/31>
+<http://ex.org/matches/31>
         rdf:type      ex:Match ;
         ex:id         "31" ;
         ex:winner     "G2 Esports" ;
@@ -322,7 +322,7 @@
         ex:blue_side  "G2 Esports" ;
         ex:red_side   "Hong Kong Attitude" .
 
-<http://ex.org/worlds_2019_matches/32>
+<http://ex.org/matches/32>
         rdf:type      ex:Match ;
         ex:id         "32" ;
         ex:winner     "Griffin" ;
@@ -332,7 +332,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "Griffin" .
 
-<http://ex.org/worlds_2019_matches/33>
+<http://ex.org/matches/33>
         rdf:type      ex:Match ;
         ex:id         "33" ;
         ex:winner     "G2 Esports" ;
@@ -342,7 +342,7 @@
         ex:blue_side  "Cloud9" ;
         ex:red_side   "G2 Esports" .
 
-<http://ex.org/worlds_2019_matches/34>
+<http://ex.org/matches/34>
         rdf:type      ex:Match ;
         ex:id         "34" ;
         ex:winner     "Cloud9" ;
@@ -352,7 +352,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "Cloud9" .
 
-<http://ex.org/worlds_2019_matches/35>
+<http://ex.org/matches/35>
         rdf:type      ex:Match ;
         ex:id         "35" ;
         ex:winner     "Griffin" ;
@@ -362,7 +362,7 @@
         ex:blue_side  "G2 Esports" ;
         ex:red_side   "Griffin" .
 
-<http://ex.org/worlds_2019_matches/36>
+<http://ex.org/matches/36>
         rdf:type      ex:Match ;
         ex:id         "36" ;
         ex:winner     "SK Telecom T1" ;
@@ -372,7 +372,7 @@
         ex:blue_side  "Royal Never Give Up" ;
         ex:red_side   "SK Telecom T1" .
 
-<http://ex.org/worlds_2019_matches/37>
+<http://ex.org/matches/37>
         rdf:type      ex:Match ;
         ex:id         "37" ;
         ex:winner     "Fnatic" ;
@@ -382,7 +382,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "Fnatic" .
 
-<http://ex.org/worlds_2019_matches/38>
+<http://ex.org/matches/38>
         rdf:type      ex:Match ;
         ex:id         "38" ;
         ex:winner     "Fnatic" ;
@@ -392,7 +392,7 @@
         ex:blue_side  "SK Telecom T1" ;
         ex:red_side   "Fnatic" .
 
-<http://ex.org/worlds_2019_matches/39>
+<http://ex.org/matches/39>
         rdf:type      ex:Match ;
         ex:id         "39" ;
         ex:winner     "Royal Never Give Up" ;
@@ -402,7 +402,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "Royal Never Give Up" .
 
-<http://ex.org/worlds_2019_matches/40>
+<http://ex.org/matches/40>
         rdf:type      ex:Match ;
         ex:id         "40" ;
         ex:winner     "SK Telecom T1" ;
@@ -412,7 +412,7 @@
         ex:blue_side  "SK Telecom T1" ;
         ex:red_side   "Clutch Gaming" .
 
-<http://ex.org/worlds_2019_matches/41>
+<http://ex.org/matches/41>
         rdf:type      ex:Match ;
         ex:id         "41" ;
         ex:winner     "Fnatic" ;
@@ -422,7 +422,7 @@
         ex:blue_side  "Fnatic" ;
         ex:red_side   "Royal Never Give Up" .
 
-<http://ex.org/worlds_2019_matches/42>
+<http://ex.org/matches/42>
         rdf:type      ex:Match ;
         ex:id         "42" ;
         ex:winner     "Invictus Gaming" ;
@@ -432,7 +432,7 @@
         ex:blue_side  "ahq eSports Club" ;
         ex:red_side   "Invictus Gaming" .
 
-<http://ex.org/worlds_2019_matches/43>
+<http://ex.org/matches/43>
         rdf:type      ex:Match ;
         ex:id         "43" ;
         ex:winner     "DAMWON Gaming" ;
@@ -442,7 +442,7 @@
         ex:blue_side  "Team Liquid" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/44>
+<http://ex.org/matches/44>
         rdf:type      ex:Match ;
         ex:id         "44" ;
         ex:winner     "Team Liquid" ;
@@ -452,7 +452,7 @@
         ex:blue_side  "Team Liquid" ;
         ex:red_side   "ahq eSports Club" .
 
-<http://ex.org/worlds_2019_matches/45>
+<http://ex.org/matches/45>
         rdf:type      ex:Match ;
         ex:id         "45" ;
         ex:winner     "DAMWON Gaming" ;
@@ -462,7 +462,7 @@
         ex:blue_side  "DAMWON Gaming" ;
         ex:red_side   "Invictus Gaming" .
 
-<http://ex.org/worlds_2019_matches/46>
+<http://ex.org/matches/46>
         rdf:type      ex:Match ;
         ex:id         "46" ;
         ex:winner     "DAMWON Gaming" ;
@@ -472,7 +472,7 @@
         ex:blue_side  "DAMWON Gaming" ;
         ex:red_side   "ahq eSports Club" .
 
-<http://ex.org/worlds_2019_matches/47>
+<http://ex.org/matches/47>
         rdf:type      ex:Match ;
         ex:id         "47" ;
         ex:winner     "Invictus Gaming" ;
@@ -482,7 +482,7 @@
         ex:blue_side  "Invictus Gaming" ;
         ex:red_side   "Team Liquid" .
 
-<http://ex.org/worlds_2019_matches/48>
+<http://ex.org/matches/48>
         rdf:type      ex:Match ;
         ex:id         "48" ;
         ex:winner     "FunPlus Phoenix" ;
@@ -492,7 +492,7 @@
         ex:blue_side  "FunPlus Phoenix" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/49>
+<http://ex.org/matches/49>
         rdf:type      ex:Match ;
         ex:id         "49" ;
         ex:winner     "Griffin" ;
@@ -502,7 +502,7 @@
         ex:blue_side  "G2 Esports" ;
         ex:red_side   "Griffin" .
 
-<http://ex.org/worlds_2019_matches/50>
+<http://ex.org/matches/50>
         rdf:type      ex:Match ;
         ex:id         "50" ;
         ex:winner     "Unicorns Of Love" ;
@@ -512,7 +512,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "Unicorns Of Love" .
 
-<http://ex.org/worlds_2019_matches/51>
+<http://ex.org/matches/51>
         rdf:type      ex:Match ;
         ex:id         "51" ;
         ex:winner     "Splyce" ;
@@ -522,7 +522,7 @@
         ex:blue_side  "DetonatioN FocusMe" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/52>
+<http://ex.org/matches/52>
         rdf:type      ex:Match ;
         ex:id         "52" ;
         ex:winner     "MAMMOTH" ;
@@ -532,7 +532,7 @@
         ex:blue_side  "MAMMOTH" ;
         ex:red_side   "Unicorns Of Love" .
 
-<http://ex.org/worlds_2019_matches/53>
+<http://ex.org/matches/53>
         rdf:type      ex:Match ;
         ex:id         "53" ;
         ex:winner     "Isurus" ;
@@ -542,7 +542,7 @@
         ex:blue_side  "DetonatioN FocusMe" ;
         ex:red_side   "Isurus" .
 
-<http://ex.org/worlds_2019_matches/54>
+<http://ex.org/matches/54>
         rdf:type      ex:Match ;
         ex:id         "54" ;
         ex:winner     "Clutch Gaming" ;
@@ -552,7 +552,7 @@
         ex:blue_side  "MAMMOTH" ;
         ex:red_side   "Clutch Gaming" .
 
-<http://ex.org/worlds_2019_matches/55>
+<http://ex.org/matches/55>
         rdf:type      ex:Match ;
         ex:id         "55" ;
         ex:winner     "Splyce" ;
@@ -562,7 +562,7 @@
         ex:blue_side  "Splyce" ;
         ex:red_side   "Isurus" .
 
-<http://ex.org/worlds_2019_matches/56>
+<http://ex.org/matches/56>
         rdf:type      ex:Match ;
         ex:id         "56" ;
         ex:winner     "DAMWON Gaming" ;
@@ -572,7 +572,7 @@
         ex:blue_side  "Royal Youth" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/57>
+<http://ex.org/matches/57>
         rdf:type      ex:Match ;
         ex:id         "57" ;
         ex:winner     "Hong Kong Attitude" ;
@@ -582,7 +582,7 @@
         ex:blue_side  "MEGA" ;
         ex:red_side   "Hong Kong Attitude" .
 
-<http://ex.org/worlds_2019_matches/58>
+<http://ex.org/matches/58>
         rdf:type      ex:Match ;
         ex:id         "58" ;
         ex:winner     "DAMWON Gaming" ;
@@ -592,7 +592,7 @@
         ex:blue_side  "DAMWON Gaming" ;
         ex:red_side   "Flamengo eSports" .
 
-<http://ex.org/worlds_2019_matches/59>
+<http://ex.org/matches/59>
         rdf:type      ex:Match ;
         ex:id         "59" ;
         ex:winner     "MEGA" ;
@@ -602,7 +602,7 @@
         ex:blue_side  "MEGA" ;
         ex:red_side   "Lowkey Esports" .
 
-<http://ex.org/worlds_2019_matches/60>
+<http://ex.org/matches/60>
         rdf:type      ex:Match ;
         ex:id         "60" ;
         ex:winner     "Flamengo eSports" ;
@@ -612,7 +612,7 @@
         ex:blue_side  "Royal Youth" ;
         ex:red_side   "Flamengo eSports" .
 
-<http://ex.org/worlds_2019_matches/61>
+<http://ex.org/matches/61>
         rdf:type      ex:Match ;
         ex:id         "61" ;
         ex:winner     "Lowkey Esports" ;
@@ -622,7 +622,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "Lowkey Esports" .
 
-<http://ex.org/worlds_2019_matches/62>
+<http://ex.org/matches/62>
         rdf:type      ex:Match ;
         ex:id         "62" ;
         ex:winner     "Unicorns Of Love" ;
@@ -632,7 +632,7 @@
         ex:blue_side  "Unicorns Of Love" ;
         ex:red_side   "Clutch Gaming" .
 
-<http://ex.org/worlds_2019_matches/63>
+<http://ex.org/matches/63>
         rdf:type      ex:Match ;
         ex:id         "63" ;
         ex:winner     "DetonatioN FocusMe" ;
@@ -642,7 +642,7 @@
         ex:blue_side  "Splyce" ;
         ex:red_side   "DetonatioN FocusMe" .
 
-<http://ex.org/worlds_2019_matches/64>
+<http://ex.org/matches/64>
         rdf:type      ex:Match ;
         ex:id         "64" ;
         ex:winner     "MAMMOTH" ;
@@ -652,7 +652,7 @@
         ex:blue_side  "Unicorns Of Love" ;
         ex:red_side   "MAMMOTH" .
 
-<http://ex.org/worlds_2019_matches/65>
+<http://ex.org/matches/65>
         rdf:type      ex:Match ;
         ex:id         "65" ;
         ex:winner     "Isurus" ;
@@ -662,7 +662,7 @@
         ex:blue_side  "Isurus" ;
         ex:red_side   "DetonatioN FocusMe" .
 
-<http://ex.org/worlds_2019_matches/66>
+<http://ex.org/matches/66>
         rdf:type      ex:Match ;
         ex:id         "66" ;
         ex:winner     "Clutch Gaming" ;
@@ -672,7 +672,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "MAMMOTH" .
 
-<http://ex.org/worlds_2019_matches/67>
+<http://ex.org/matches/67>
         rdf:type      ex:Match ;
         ex:id         "67" ;
         ex:winner     "Splyce" ;
@@ -682,7 +682,7 @@
         ex:blue_side  "Isurus" ;
         ex:red_side   "Splyce" .
 
-<http://ex.org/worlds_2019_matches/68>
+<http://ex.org/matches/68>
         rdf:type      ex:Match ;
         ex:id         "68" ;
         ex:winner     "DAMWON Gaming" ;
@@ -692,7 +692,7 @@
         ex:blue_side  "DAMWON Gaming" ;
         ex:red_side   "Royal Youth" .
 
-<http://ex.org/worlds_2019_matches/69>
+<http://ex.org/matches/69>
         rdf:type      ex:Match ;
         ex:id         "69" ;
         ex:winner     "Hong Kong Attitude" ;
@@ -702,7 +702,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "MEGA" .
 
-<http://ex.org/worlds_2019_matches/70>
+<http://ex.org/matches/70>
         rdf:type      ex:Match ;
         ex:id         "70" ;
         ex:winner     "DAMWON Gaming" ;
@@ -712,7 +712,7 @@
         ex:blue_side  "Flamengo eSports" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/71>
+<http://ex.org/matches/71>
         rdf:type      ex:Match ;
         ex:id         "71" ;
         ex:winner     "Lowkey Esports" ;
@@ -722,7 +722,7 @@
         ex:blue_side  "Lowkey Esports" ;
         ex:red_side   "MEGA" .
 
-<http://ex.org/worlds_2019_matches/72>
+<http://ex.org/matches/72>
         rdf:type      ex:Match ;
         ex:id         "72" ;
         ex:winner     "Royal Youth" ;
@@ -732,7 +732,7 @@
         ex:blue_side  "Flamengo eSports" ;
         ex:red_side   "Royal Youth" .
 
-<http://ex.org/worlds_2019_matches/73>
+<http://ex.org/matches/73>
         rdf:type      ex:Match ;
         ex:id         "73" ;
         ex:winner     "Hong Kong Attitude" ;
@@ -742,7 +742,7 @@
         ex:blue_side  "Lowkey Esports" ;
         ex:red_side   "Hong Kong Attitude" .
 
-<http://ex.org/worlds_2019_matches/74>
+<http://ex.org/matches/74>
         rdf:type      ex:Match ;
         ex:id         "74" ;
         ex:winner     "Unicorns Of Love" ;
@@ -752,7 +752,7 @@
         ex:blue_side  "MAMMOTH" ;
         ex:red_side   "Unicorns Of Love" .
 
-<http://ex.org/worlds_2019_matches/75>
+<http://ex.org/matches/75>
         rdf:type      ex:Match ;
         ex:id         "75" ;
         ex:winner     "Clutch Gaming" ;
@@ -762,7 +762,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "Unicorns Of Love" .
 
-<http://ex.org/worlds_2019_matches/76>
+<http://ex.org/matches/76>
         rdf:type      ex:Match ;
         ex:id         "76" ;
         ex:winner     "Royal Youth" ;
@@ -772,7 +772,7 @@
         ex:blue_side  "Royal Youth" ;
         ex:red_side   "Flamengo eSports" .
 
-<http://ex.org/worlds_2019_matches/77>
+<http://ex.org/matches/77>
         rdf:type      ex:Match ;
         ex:id         "77" ;
         ex:winner     "DAMWON Gaming" ;
@@ -782,7 +782,7 @@
         ex:blue_side  "Lowkey Esports" ;
         ex:red_side   "DAMWON Gaming" .
 
-<http://ex.org/worlds_2019_matches/78>
+<http://ex.org/matches/78>
         rdf:type      ex:Match ;
         ex:id         "78" ;
         ex:winner     "Clutch Gaming" ;
@@ -792,7 +792,7 @@
         ex:blue_side  "Clutch Gaming" ;
         ex:red_side   "Royal Youth" .
 
-<http://ex.org/worlds_2019_matches/79>
+<http://ex.org/matches/79>
         rdf:type      ex:Match ;
         ex:id         "79" ;
         ex:winner     "Hong Kong Attitude" ;
@@ -802,7 +802,7 @@
         ex:blue_side  "Hong Kong Attitude" ;
         ex:red_side   "Isurus" .
 
-<http://ex.org/worlds_2019_matches/80>
+<http://ex.org/matches/80>
         rdf:type      ex:Match ;
         ex:id         "80" ;
         ex:winner     "Splyce" ;

@@ -14,7 +14,7 @@ CONSTRUCT {
 } 
 FROM <file:matches.csv> 
 WHERE {
-  BIND (URI(CONCAT('http://ex.org/worlds_2019_matches/', xsd:string(?id))) AS ?URI)
+  BIND (URI(CONCAT('http://ex.org/matches/', xsd:string(?id))) AS ?URI)
   BIND (xsd:string(?winner) AS ?winner)
   BIND (xsd:string(?date) AS ?datetime)
   BIND (xsd:string(?pbp_caster) AS ?caster)

@@ -3,9 +3,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
   ?URI a ex:Caster;
+  ex:name ?caster_name ;
 } 
 
 FROM <file:casters.csv> 
 WHERE {
-  BIND (URI(CONCAT('http://ex.org/worlds_2019_casters/', ?caster)) AS ?URI)
+  BIND (URI(CONCAT('http://ex.org/casters/', ?caster_id)) AS ?URI)
+  BIND (xsd:string(?caster) AS ?caster_name)
 }
