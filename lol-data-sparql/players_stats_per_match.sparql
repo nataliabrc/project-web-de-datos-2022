@@ -3,57 +3,57 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 	?URI a ex:Player_stats_per_match;
-		ex:name	?player_name;
-		ex:date ?match_date;
-		ex:side ?match_side;
-		ex:position	?player_position;
-		ex:team	?player_team;
-		ex:champion	?player_champion;
-		ex:ban1	?ban_1;
-		ex:ban2	?ban_2;
-		ex:ban3	?ban_3;
-		ex:ban4	?ban_4;
-		ex:ban5	?ban_5;
-		ex:gamelength ?game_length;
-		ex:result ?match_result;
-		ex:k ?kills;
-		ex:d ?deaths;
-		ex:a ?assists;
-		ex:teamkills ?team_kills;
-		ex:teamdeaths ?team_deaths;
-		ex:doubles ?double_kills;
-		ex:triples ?triple_kills;
-		ex:quadras ?quadra_kills;
-		ex:pentas ?penta_kills;
-		ex:fb ?first_blood;
-		ex:fbassist	?first_blood_assist;
-		ex:fbvictim	?first_blood_victim;
-		ex:fbtime ?first_blood_time;
-		ex:fd	?first_death;
-		ex:fdtime	?first_death_time; 
-		ex:teamdragkills ?team_drag_kills;
-		ex:elders	?team_elders;
-		ex:herald	?team_herald;
-		ex:heraldtime ?herald_time;
-		ex:ft	?first_tower;
-		ex:fttime	?first_tower_time;
-		ex:firstmidouter	?first_mid_tower;
-		ex:firsttothreetowers	?first_three_tower;
-		ex:teamtowerkills	?team_tower_kills;
-		ex:fbaron	?first_baron;
-		ex:fbarontime	?first_baron_time; 
-		ex:teambaronkills	?team_baron_kills;
-		ex:dmgtochamps	?damage_to_champs;
-		ex:totalgold	?total_gold;
-		ex:minionkills	?minion_kills;
-		ex:monsterkills	?monster_kills;
+		ex:player_name	?player_name;
+		ex:match_date ?match_date;
+		ex:match_side ?match_side;
+		ex:player_position	?player_position;
+		ex:player_team	?player_team;
+		ex:player_champion	?player_champion;
+		ex:team_ban_1	?ban_1;
+		ex:team_ban_2	?ban_2;
+		ex:team_ban_3	?ban_3;
+		ex:team_ban_4	?ban_4;
+		ex:team_ban_5	?ban_5;
+		ex:game_length ?game_length;
+		ex:match_result ?match_result;
+		ex:kills ?kills;
+		ex:deaths ?deaths;
+		ex:assists ?assists;
+		ex:team_kills ?team_kills;
+		ex:team_deaths ?team_deaths;
+		ex:double_kills ?double_kills;
+		ex:triple_kills ?triple_kills;
+		ex:quadra_kills ?quadra_kills;
+		ex:penta_kills ?penta_kills;
+		ex:first_blood ?first_blood;
+		ex:first_blood_assist	?first_blood_assist;
+		ex:first_blood_victim	?first_blood_victim;
+		ex:first_blood_time ?first_blood_time;
+		ex:first_death	?first_death;
+		ex:first_death_time	?first_death_time; 
+		ex:team_drag_kills ?team_drag_kills;
+		ex:team_elders	?team_elders;
+		ex:team_herald	?team_herald;
+		ex:herald_time ?herald_time;
+		ex:first_tower	?first_tower;
+		ex:first_tower_time	?first_tower_time;
+		ex:first_mid_tower	?first_mid_tower;
+		ex:first_three_tower	?first_three_tower;
+		ex:team_tower_kills	?team_tower_kills;
+		ex:first_baron	?first_baron;
+		ex:first_baron_time	?first_baron_time; 
+		ex:team_baron_kills	?team_baron_kills;
+		ex:damage_to_champs	?damage_to_champs;
+		ex:total_gold	?total_gold;
+		ex:minion_kills	?minion_kills;
+		ex:monster_kills	?monster_kills;
 }
 
 FROM <file:players_stats_per_match.csv> 
 WHERE {
   BIND (URI(CONCAT('http://ex.org/players_stats_per_match/', xsd:string(?player))) AS ?URI)
   BIND (xsd:string(?name) AS ?player_name)
-	BIND (xsd:string(?date) AS ?match_date)
+	BIND (xsd:date(?date) AS ?match_date)
 	BIND (xsd:string(?side) AS ?match_side)
 	BIND (xsd:string(?position) AS ?player_position)
 	BIND (xsd:string(?team) AS ?player_team)
