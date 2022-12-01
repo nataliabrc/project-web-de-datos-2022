@@ -3,7 +3,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
 	?URI a ex:Player_stats_per_match;
-		ex:player_name	?player_name;
+		ex:name	?player_name;
 		ex:match_date ?match_date;
 		ex:match_side ?match_side;
 		ex:player_position	?player_position;
