@@ -1,0 +1,55 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Q1: ¿Cuál es la/el campeón más pickeado?
+SELECT ?picks ?name
+WHERE {
+  ?champion a ex:Champion .
+  ?champion ex:name ?name .
+  ?champion ex:total_picks ?picks .
+}
+ORDER BY DESC(?picks) LIMIT 1
+
+# Q2: ¿Cuál fue la duración media de los partidos?
+SELECT (AVG(?game_length) AS ?avg_game_length) 
+WHERE {
+  ?match_stats a ex:Player_stats_per_match .
+  ?match_stats ex:game_length ?game_length .
+}
+
+# Q3: ¿Qué equipos se enfretaron en la final?
+SELECT ?team ?match_date
+WHERE {
+  ?match_stats a ex:Player_stats_per_match .
+  ?match_stats ex:player_team ?team .
+  ?match_stats ex:match_date ?match_date .
+}
+GROUP BY ?team ?match_date
+ORDER BY DESC(?match_date)
+LIMIT 2
+
+# Q4: ¿Qué equipo gano el mundial?
+SELECT ?team ?match_date
+WHERE {
+  ?match_stats a ex:Player_stats_per_match .
+  ?match_stats ex:player_team ?team .
+  ?match_stats ex:match_date ?match_date .
+  ?match_stats ex:match_result ?match_result .
+  FILTER(?match_result = "true"^^xsd:boolean )
+}
+GROUP BY ?team ?match_date 
+ORDER BY DESC(?match_date)
+LIMIT 1
+
+# Q5: ¿El lado con mayor winrate?
+# TODO: arreglar esto porque entrega la cantidad de victorias del red_side
+SELECT (COUNT(?red_side_team) as ?total_wins_red_side)
+WHERE {
+  ?match a ex:Match .
+  ?match ex:blue_side ?blue_side_team .
+  ?match ex:red_side ?red_side_team .
+  ?match ex:winner ?winner_team .
+  FILTER(?red_side_team = ?winner_team)
+}
