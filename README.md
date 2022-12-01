@@ -31,7 +31,7 @@ Luego ejecutar el siguiente comando para obtener el rdf que se guardará en la c
 
  ### Casters
  
-  ```tarql ../../lol-data-sparql/casters.sparql ../../lol-data-csv/matches.csv > ../../lol-data-rdf/casters.ttl```
+  ```tarql ../../lol-data-sparql/casters.sparql ../../lol-data-csv/casters.csv > ../../lol-data-rdf/casters.ttl```
 
 
 ## SPARQL queries

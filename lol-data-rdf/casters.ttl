@@ -1,0 +1,63 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/casters/kobe>
+        rdf:type  ex:Caster ;
+        ex:name  "Kobe" .
+
+<http://ex.org/casters/papasmithy>
+        rdf:type  ex:Caster ;
+        ex:name  "PapaSmithy" .
+
+<http://ex.org/casters/froskurinn>
+        rdf:type  ex:Caster ;
+        ex:name  "Froskurinn" .
+
+<http://ex.org/casters/phreak>
+        rdf:type  ex:Caster ;
+        ex:name  "Phreak" .
+
+<http://ex.org/casters/drakos>
+        rdf:type  ex:Caster ;
+        ex:name  "Drakos" .
+
+<http://ex.org/casters/vedius>
+        rdf:type  ex:Caster ;
+        ex:name  "Vedius" .
+
+<http://ex.org/casters/atlus>
+        rdf:type  ex:Caster ;
+        ex:name  "Atlus" .
+
+<http://ex.org/casters/spawn>
+        rdf:type  ex:Caster ;
+        ex:name  "Spawn" .
+
+<http://ex.org/casters/egym>
+        rdf:type  ex:Caster ;
+        ex:name  "EGym" .
+
+<http://ex.org/casters/jatt>
+        rdf:type  ex:Caster ;
+        ex:name  "Jatt" .
+
+<http://ex.org/casters/ender>
+        rdf:type  ex:Caster ;
+        ex:name  "Ender" .
+
+<http://ex.org/casters/quickshot>
+        rdf:type  ex:Caster ;
+        ex:name  "Quickshot" .
+
+<http://ex.org/casters/azael>
+        rdf:type  ex:Caster ;
+        ex:name  "Azael" .
+
+<http://ex.org/casters/medic>
+        rdf:type  ex:Caster ;
+        ex:name  "Medic" .
+
+<http://ex.org/casters/captainflowers>
+        rdf:type  ex:Caster ;
+        ex:name  "CaptainFlowers" .
