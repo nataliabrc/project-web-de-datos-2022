@@ -1,0 +1,13 @@
+PREFIX ex: <http://ex.org/a#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?URI a ex:Team;
+		ex:name	?team_name;
+}
+
+FROM <file:teams.csv> 
+WHERE {
+  BIND (URI(CONCAT('http://ex.org/teams/', xsd:string(?team))) AS ?URI)
+  BIND (xsd:string(?name) AS ?team_name)
+}

@@ -1,0 +1,99 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:  <http://ex.org/a#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ex.org/teams/detonationfocusme>
+        rdf:type  ex:Team ;
+        ex:name  "DetonatioN FocusMe" .
+
+<http://ex.org/teams/splyce>
+        rdf:type  ex:Team ;
+        ex:name  "Splyce" .
+
+<http://ex.org/teams/clutchgaming>
+        rdf:type  ex:Team ;
+        ex:name  "Clutch Gaming" .
+
+<http://ex.org/teams/unicornsoflove>
+        rdf:type  ex:Team ;
+        ex:name  "Unicorns of Love" .
+
+<http://ex.org/teams/mammoth>
+        rdf:type  ex:Team ;
+        ex:name  "Mammoth" .
+
+<http://ex.org/teams/isurusgaming>
+        rdf:type  ex:Team ;
+        ex:name  "Isurus Gaming" .
+
+<http://ex.org/teams/royalyouth>
+        rdf:type  ex:Team ;
+        ex:name  "Royal Youth" .
+
+<http://ex.org/teams/damwongaming>
+        rdf:type  ex:Team ;
+        ex:name  "Damwon Gaming" .
+
+<http://ex.org/teams/megaesports>
+        rdf:type  ex:Team ;
+        ex:name  "MEGA Esports" .
+
+<http://ex.org/teams/hongkongattitude>
+        rdf:type  ex:Team ;
+        ex:name  "Hong Kong Attitude" .
+
+<http://ex.org/teams/flamengo>
+        rdf:type  ex:Team ;
+        ex:name  "Flamengo" .
+
+<http://ex.org/teams/lowkeyesports>
+        rdf:type  ex:Team ;
+        ex:name  "Lowkey Esports" .
+
+<http://ex.org/teams/fnatic>
+        rdf:type  ex:Team ;
+        ex:name  "Fnatic" .
+
+<http://ex.org/teams/sktelecomt1>
+        rdf:type  ex:Team ;
+        ex:name  "SK Telecom T1" .
+
+<http://ex.org/teams/royalnevergiveup>
+        rdf:type  ex:Team ;
+        ex:name  "Royal Never Give Up" .
+
+<http://ex.org/teams/invictusgaming>
+        rdf:type  ex:Team ;
+        ex:name  "Invictus Gaming" .
+
+<http://ex.org/teams/ahqe-sportsclub>
+        rdf:type  ex:Team ;
+        ex:name  "AHQ e-Sports Club" .
+
+<http://ex.org/teams/teamliquid>
+        rdf:type  ex:Team ;
+        ex:name  "Team Liquid" .
+
+<http://ex.org/teams/jteam>
+        rdf:type  ex:Team ;
+        ex:name  "J Team" .
+
+<http://ex.org/teams/funplusphoenix>
+        rdf:type  ex:Team ;
+        ex:name  "Funplus Phoenix" .
+
+<http://ex.org/teams/gamesports>
+        rdf:type  ex:Team ;
+        ex:name  "GAM Esports" .
+
+<http://ex.org/teams/griffin>
+        rdf:type  ex:Team ;
+        ex:name  "Griffin" .
+
+<http://ex.org/teams/g2esports>
+        rdf:type  ex:Team ;
+        ex:name  "G2 Esports" .
+
+<http://ex.org/teams/cloud9>
+        rdf:type  ex:Team ;
+        ex:name  "Cloud9" .
